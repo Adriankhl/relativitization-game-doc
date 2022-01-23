@@ -4,7 +4,20 @@
 3. [Game UI](#game-ui)
 
 ## Core idea
-We believe 
+Though a computer game can never be fully realistic, a certain degree of realism makes a game more immersive
+and interesting.
+From our current knowledge in physics, we know our universe is governed by Einstein's theory of relativity,
+and we think it is important in a space game.
+Having arbitrary faster-than-light technologies, which many other space games do, break the
+immersion.
+Also, we believe respecting relativity discriminate a space game from strategy games in other settings.
+
+More precisely, we only consider special relativity here, and it should be sufficient to
+describe a scale of ~100 light years. Roughly speaking, special relativity tells us that
+* Information travel is bounded by the speed of light
+* Time dilation: relative to an observer, the clock of a moving object ticks slower
+
+We will see how these two ideas shape the game.
 
 ## Create new game
 
