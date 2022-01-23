@@ -26,4 +26,15 @@ to interpret the visualization of a universe with high z dimension in this game
 The ideal size of the universe depends on the spec of your PC.
 A reasonable suggestion is (x dimension = 10, y dimension = 10, z dimension = 3).
 
-Next, you can press the "Generate button", it may take a while to generate the universe.
+Next, you can click the "Generate" button, it may take a while to generate the universe.
+
+### Server settings
+
+![server settings](./images/server-settings.png)
+
+The game creates a server even if it is single-player.
+For a single-player game, you may tune:
+* Human input wait time limit: the game waits that many seconds a turn for your input,
+your can select 10000000000 seconds (at the top of the select box) if you want nearly infinite wait time.
+
+Click "Apply settings" to go to the next step.
