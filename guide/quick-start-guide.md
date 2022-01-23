@@ -1,10 +1,16 @@
 # Quick start guide
-1. [Create new game](#create-new-game)
-2. [Game UI](#game-ui)
+1. [Core idea](#core-idea)
+2. [Create new game](#create-new-game)
+3. [Game UI](#game-ui)
+
+## Core idea
+
+
 
 ## Create new game
 
 ### Main menu
+
 When you first enter the game, you will see the main menu.
 
 ![main menu](./images/main-menu.png)
@@ -62,9 +68,12 @@ Click "Hello Universe!" to enter the main game UI.
 ![game ui region](./images/game-ui-regions.png)
 
 The UI is separated into 4 region:
-1. [World map]()
-2. [Top bar]()
+1. [Top bar](#top-bar)
+2. [World map]()
 3. [Player Information]()
 4. [Command Information]()
 
-### World map
+### Top bar
+Top bar is 
+
+####
