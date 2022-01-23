@@ -1,5 +1,6 @@
 # Quick start guide
 1. [Create new game](#create-new-game)
+2. [Game UI](#game-ui)
 
 ## Create new game
 
@@ -51,3 +52,9 @@ you can just leave it as "1"
 4. You don't have to change the password for a single-player game
 5. Click "Register" to register you as the player
 6. If everything goes well, you will see "Registered player id: 1", now you can click "Start" to start the universe
+
+## Game UI
+
+![hello universe](./images/hello-universe.png)
+
+Click "Hello Universe!" to enter the main game screen.
