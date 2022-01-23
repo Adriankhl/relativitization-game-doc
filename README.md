@@ -1,10 +1,10 @@
 # Relativitization game documentation
-Everything about the Relativitization game.
+Everything about the [Relativitization](https://github.com/Adriankhl/relativitization) game.
 
 ## Table of contents
 1. [Quick start guide](guide/quick-start-guide.md)
 
-## `Contribute`
+## Contribute
 If you think anything is missing in this documentation, feel free to create a pull request.
 
 If you have any idea about the game, you can open a new issue to discuss your proposal.
