@@ -37,4 +37,17 @@ For a single-player game, you may tune:
 * Human input wait time limit: the game waits that many seconds a turn for your input,
 your can select 10000000000 seconds (at the top of the select box) if you want nearly infinite wait time.
 
-Click "Apply settings" to go to the next step.
+Click "Apply settings" to continue.
+
+### Register player settings
+
+![register player settings](./images/register-player-settings.png)
+
+To register yourself as a human player in the server:
+1. Choose "Human only" in "Type of available players"
+2. Click "Update"
+3. A set of id of available players will appear in the "Pci your player id" select box,
+you can just leave it as "1"
+4. You don't have to change the password for a single-player game
+5. Click "Register" to register you as the player
+6. If everything goes well, you will see "Registered player id: 1", now you can click "Start" to start the universe
