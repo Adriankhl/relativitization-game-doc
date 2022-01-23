@@ -57,4 +57,14 @@ you can just leave it as "1"
 
 ![hello universe](./images/hello-universe.png)
 
-Click "Hello Universe!" to enter the main game screen.
+Click "Hello Universe!" to enter the main game UI.
+
+![game ui region](./images/game-ui-regions.png)
+
+The UI is separated into 4 region:
+1. [World map]()
+2. [Top bar]()
+3. [Player Information]()
+4. [Command Information]()
+
+### World map
