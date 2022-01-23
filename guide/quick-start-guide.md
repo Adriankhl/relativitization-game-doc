@@ -4,13 +4,11 @@
 3. [Game UI](#game-ui)
 
 ## Core idea
-
-
+We believe 
 
 ## Create new game
 
 ### Main menu
-
 When you first enter the game, you will see the main menu.
 
 ![main menu](./images/main-menu.png)
@@ -18,7 +16,6 @@ When you first enter the game, you will see the main menu.
 To create a new game, click the "New Universe" button.
 
 ### Generate New Universe
-
 ![new universe](./images/new-universe.png)
 
 The default settings will generate a universe and each player has one star initially. 
@@ -36,7 +33,6 @@ A reasonable suggestion is (x dimension = 10, y dimension = 10, z dimension = 3)
 Next, you can click the "Generate" button, it may take a while to generate the universe.
 
 ### Server settings
-
 ![server settings](./images/server-settings.png)
 
 The game creates a server even if it is single-player.
@@ -47,7 +43,6 @@ your can select 10000000000 seconds (at the top of the select box) if you want n
 Click "Apply settings" to continue.
 
 ### Register player settings
-
 ![register player settings](./images/register-player-settings.png)
 
 To register yourself as a human player in the server:
@@ -60,7 +55,6 @@ you can just leave it as "1"
 6. If everything goes well, you will see "Registered player id: 1", now you can click "Start" to start the universe
 
 ## Game UI
-
 ![hello universe](./images/hello-universe.png)
 
 Click "Hello Universe!" to enter the main game UI.

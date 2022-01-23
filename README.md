@@ -1,6 +1,16 @@
 # Relativitization game documentation
 Everything about the [Relativitization](https://github.com/Adriankhl/relativitization) game.
 
+## Is this a game for you?
+This is a turn-based strategy / simulation game in 4D, relativistic spacetime.
+
+If you want fancy graphics and musics, probably this is not the right place.
+As a primarily one-man project, there aren't sufficient manpower and resources to work on that.
+
+If you are curious to see how will things happen in a physically more realistic 
+universe which respects relativity, or if you want to experiment your ideas in a FOSS game,
+you should try this out.
+
 ## Table of contents
 1. [Quick start guide](guide/quick-start-guide.md)
 
