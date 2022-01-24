@@ -6,18 +6,37 @@
 ## Core idea
 Though a computer game can never be fully realistic, a certain degree of realism makes a game more immersive
 and interesting.
-From our current knowledge in physics, we know our universe is governed by Einstein's theory of relativity,
-and we think it is important in a space game.
-Having arbitrary faster-than-light technologies, which many other space games do, break the
-immersion.
-Also, we believe respecting relativity discriminate a space game from strategy games in other settings.
-
-More precisely, we only consider special relativity here, and it should be sufficient to
-describe a scale of ~100 light years. Roughly speaking, special relativity tells us that
+From our current knowledge in physics, our universe is governed by Einstein's theory of relativity.
+Particularly, to describe things happening within a scale of ~100 light years, 
+we need special relativity.
+Roughly speaking, special relativity tells us that
 * Information travel is bounded by the speed of light
 * Time dilation: relative to an observer, the clock of a moving object ticks slower
 
-We will see how these two ideas shape the game.
+Having arbitrary faster-than-light technologies, which many other space games do, is forbidden by
+special relativity.
+
+In contrast, special relativity is the core mechanics in this turn-based game.
+As a consequence, you will see a few unconventional concepts:
+* typically, you observe the past state instead of the current state of other players
+* whenever you want to interact with a player, including yourself, you send a command.
+The command travels at the speed of light
+* time-dependent mechanisms may not be calculated once per turn due to time dilation
+
+Due to the restriction of the speed of information travel,
+you cannot directly control your whole territory.
+Instead, you have a set of direct subordinates, and you can
+ask them to do things by sending commands.
+Your direct subordinates are also players, they may have their
+subordinates, and they have autonomy.
+You might also be a subordinate of other player!
+If you are a fan of grand strategy game, you can probably
+figure out that this is inspired by the Crusader Kings.
+
+We believe this unconventional game design can give you a
+special feeling of immersion as if this is how our future
+will actually look like, given that our current understanding
+of physics is not too far off.
 
 ## Create new game
 
