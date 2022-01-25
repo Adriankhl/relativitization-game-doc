@@ -124,7 +124,14 @@ Because information takes time to travel, you can also see that
 the time coordinates of cubes are different. The farther away the cube from your player,
 the earlier the time it is.
 
-
+A non-empty cube contains players. Depending on the map mode,
+whether the player has stellar system or spaceship, and whether
+the player is a top-level independent leader, players many look differently
+on the world map.
+You can click the player to select it as the primary selected player,
+surrounded by green circle. If you already have a primary selected player,
+Selecting other players create a red circle around the player.
+You can click the player again to unselect it.
 
 ### Top bar
 Depending on the settings and the screen of your device,
