@@ -145,3 +145,8 @@ also select other coordinates here.
 The "z limit" and the tick button allow you to limit the
 number of observable cubes by their z coordinate in the world map,
 but you don't have to worry about this if your z dimension = 3.
+
+#### Zoom buttons
+![top bar zoom](./images/top-bar-zoom.png)
+
+From left to right: zoom-in, zoom-out, default-zoom.
