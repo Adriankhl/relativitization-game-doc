@@ -178,6 +178,14 @@ The whole information pane will be hidden if you click the button twice.
 The rightmost button controls whether the [command information](#command-information)
 is displayed or hidden.
 
+#### Server information
+![top bar server info](./images/top-bar-server-info.png)
+
+Display the status of the server.
+
+The button on the right side lights up when newer view of the universe is available,
+click it to update the view and clear your stored commands in the plan.
+
 ### Player information
 
 ### Command information
