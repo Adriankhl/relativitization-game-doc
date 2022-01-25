@@ -170,7 +170,7 @@ since commands take time to travel and things may change after a command arrives
 
 #### Player information buttons
 ![top bar player info left](./images/top-bar-player-info-left.png)
-<img src="./images/top-bar-player-info-right.png" alt="drawing" width="300"/>
+![top bar player info right](./images/top-bar-player-info-right.png)
 
 Control the displayed information in [player information](#player-information).
 The whole information pane will be hidden if you click the button twice.
