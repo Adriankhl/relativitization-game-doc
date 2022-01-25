@@ -197,6 +197,12 @@ You can ignore it for single-player games.
 
 Upload the command in your plan to the server.
 
+#### Settings and help buttons
+![top bar settings and help](./images/top-bar-settings-and-help.png)
+
+* Settings button: go to the setting screen
+* Help button: go to the help screen, the help screen has a link to this documentation
+
 ### Player information
 
 ### Command information
