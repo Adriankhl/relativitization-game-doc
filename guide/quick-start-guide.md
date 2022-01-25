@@ -102,6 +102,13 @@ The UI is separated into 4 region:
 ### World map
 World map is where you visualize all the players in the universe.
 
+You can zoom in/out by pressing +/-, if you have a touch screen, you
+can also use your fingers to zoom.
+
+The universe has 3 spatial dimension. Instead of visualizing the universe
+by fancy 3D graphics, the 3D universe is projected into a 2D plane.
+A white square represent a cube at a specific coordinate.
+
 ### Top bar
 Depending on the settings and the screen of your device,
 there may be a horizontal scroll bar.
