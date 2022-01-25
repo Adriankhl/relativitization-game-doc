@@ -94,13 +94,17 @@ Click "Hello Universe!" to enter the main game UI.
 ![game ui region](./images/game-ui-regions.png)
 
 The UI is separated into 4 region:
-1. [Top bar](#top-bar)
-2. [World map]()
+1. [World map](#world-map)
+2. [Top bar](#top-bar)
 3. [Player Information]()
 4. [Command Information]()
+
+### World map
+World map is where you visualize all the players in the universe.
 
 ### Top bar
 Depending on the settings and the screen of your device,
 there may be a horizontal scroll bar.
 
 #### Coordinates
+![top bar coordinate](./images/top-bar-coordinates.png)
