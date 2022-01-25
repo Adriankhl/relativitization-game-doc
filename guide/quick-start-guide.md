@@ -156,3 +156,14 @@ From left to right: zoom-in, zoom-out, default-zoom.
 
 If this is not the first turn, you can look back into the history.
 The "trash bin" button clear the history prior to what you are viewing.
+
+#### Command plan buttons
+![top bar command plan](./images/top-bar-command-plan.png)
+
+From left to right:
+* Plan observable mode on/off: recall that your action in the game is done by sending commands
+your unsent commands are stored in plan, turning this on allow you to see how will all the players
+change after all the commands you sent are executed. Note that this may not be what actually happens in reality,
+since commands take time to travel and things may change after a command arrives a player's location
+* Clear all command in plan
+* Clear all selected player
