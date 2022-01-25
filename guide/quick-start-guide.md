@@ -140,8 +140,8 @@ there may be a horizontal scroll bar under the top bar.
 #### Coordinates
 ![top bar coordinate](./images/top-bar-coordinates.png)
 
-This displays the coordinates of your selected cube, you can
-also select other coordinates here. 
+Display the coordinates of your selected cube. 
+You can also select coordinates here. 
 The "z limit" and the tick button allow you to limit the
 number of observable cubes by their z coordinate in the world map,
 but you don't have to worry about this if your z dimension = 3.
@@ -150,3 +150,9 @@ but you don't have to worry about this if your z dimension = 3.
 ![top bar zoom](./images/top-bar-zoom.png)
 
 From left to right: zoom-in, zoom-out, default-zoom.
+
+#### Universe history
+![top bar universe history](./images/top-bar-universe-history.png)
+
+If this is not the first turn, you can look back into the history.
+The "trash bin" button clear the history prior to what you are viewing.
