@@ -100,6 +100,7 @@ The UI is separated into 4 region:
 4. [Command Information]()
 
 ### Top bar
-Top bar is 
+Depending on the settings and the screen of your device,
+there may be a horizontal scroll bar.
 
-####
+#### Coordinates
