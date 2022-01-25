@@ -192,6 +192,11 @@ click it to update the view and clear your stored commands in the plan.
 Ask server to stop waiting, or ask server to stop running.
 You can ignore it for single-player games.
 
+#### Upload commands button
+![top bar upload commands](./images/top-bar-upload-command.png)
+
+Upload the command in your plan to the server.
+
 ### Player information
 
 ### Command information
