@@ -165,8 +165,8 @@ From left to right:
 your unsent commands are stored in plan, turning this on allow you to see how will all the players
 change after all the commands you sent are executed. Note that this may not be what actually happens in reality,
 since commands take time to travel and things may change after a command arrives a player's location
-* Clear all command in plan
-* Clear all selected player
+* Clear all commands in plan
+* Clear all selected players
 
 #### Player information buttons
 ![top bar player info left](./images/top-bar-player-info-left.png)
