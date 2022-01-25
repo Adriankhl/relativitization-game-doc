@@ -186,6 +186,12 @@ Display the status of the server.
 The button on the right side lights up when newer view of the universe is available,
 click it to update the view and clear your stored commands in the plan.
 
+#### Server control
+![top bar server control](./images/top-bar-server-control.png)
+
+Ask server to stop waiting, or ask server to stop running.
+You can ignore it for single-player games.
+
 ### Player information
 
 ### Command information
