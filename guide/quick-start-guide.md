@@ -135,7 +135,13 @@ You can click the player again to unselect it.
 
 ### Top bar
 Depending on the settings and the screen of your device,
-there may be a horizontal scroll bar.
+there may be a horizontal scroll bar under the top bar.
 
 #### Coordinates
 ![top bar coordinate](./images/top-bar-coordinates.png)
+
+This displays the coordinates of your selected cube, you can
+also select other coordinates here. 
+The "z limit" and the tick button allow you to limit the
+number of observable cubes by their z coordinate in the world map,
+but you don't have to worry about this if your z dimension = 3.
