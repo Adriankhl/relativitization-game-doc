@@ -15,7 +15,7 @@ you should try this out.
 1. [Quick start guide](guide/quick-start-guide.md)
 
 ## Contribute
-If you think anything is missing in this documentation, feel free to create a pull request.
+If you want to improve this documentation, feel free to create a pull request.
 
 If you have any idea about the game, you can open a new issue to discuss your proposal.
 
