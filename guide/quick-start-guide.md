@@ -96,8 +96,8 @@ Click "Hello Universe!" to enter the main game UI.
 The UI is separated into 4 region:
 1. [World map](#world-map)
 2. [Top bar](#top-bar)
-3. [Player Information]()
-4. [Command Information]()
+3. [Player Information](#player-information)
+4. [Command Information](#command-information)
 
 ### World map
 World map is where you visualize all the players in the universe.
@@ -167,3 +167,17 @@ change after all the commands you sent are executed. Note that this may not be w
 since commands take time to travel and things may change after a command arrives a player's location
 * Clear all command in plan
 * Clear all selected player
+
+#### Player information buttons
+![top bar player info left](./images/top-bar-player-info-left.png)
+<img src="./images/top-bar-player-info-right.png" alt="drawing" width="300"/>
+
+Control the displayed information in [player information](#player-information).
+The whole information pane will be hidden if you click the button twice.
+
+The rightmost button controls whether the [command information](#command-information)
+is displayed or hidden.
+
+### Player information
+
+### Command information
