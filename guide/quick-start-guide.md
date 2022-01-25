@@ -107,7 +107,24 @@ can also use your fingers to zoom.
 
 The universe has 3 spatial dimension. Instead of visualizing the universe
 by fancy 3D graphics, the 3D universe is projected into a 2D plane.
-A white square represent a cube at a specific coordinate.
+You can see many white squares in the world map, 
+a white square represent a cube at a specific integer coordinate.
+
+![world map zoom in](./images/world-map-zoom-in.png)
+
+The x coordinate increases when you move to the right,
+and the y coordinate increases when you move up.
+If you follow the recommendation in this guide where z-dimension = 3,
+you will see three cubes along the oblique axis.
+You can click on the white square to select the cube.
+you will see a blue box around the white square,
+and the coordinates of the selected cube will be displayed
+on the [top bar (coordinates)](#coordinates).
+Because information takes time to travel, you can also see that
+the time coordinates of cubes are different. The farther away the cube from your player,
+the earlier the time it is.
+
+
 
 ### Top bar
 Depending on the settings and the screen of your device,
