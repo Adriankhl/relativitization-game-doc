@@ -87,10 +87,6 @@ you can just leave it as "1"
 6. If everything goes well, you will see "Registered player id: 1", now you can click "Start" to start the universe
 
 ## Game UI
-![hello universe](./images/hello-universe.png)
-
-Click "Hello Universe!" to enter the main game UI.
-
 ![game ui region](./images/game-ui-regions.png)
 
 The UI is separated into 4 region:
