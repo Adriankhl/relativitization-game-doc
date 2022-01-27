@@ -200,5 +200,10 @@ Upload the command in your plan to the server.
 * Help button: go to the help screen, the help screen has a link to this documentation
 
 ### Player information
+This is where you see the information of players.
+You will also create to-be-sent commands here.
+
+You can choose which information to show by [these button](#player-information-buttons).
+The default is "Overview".
 
 ### Command information
