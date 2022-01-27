@@ -201,9 +201,19 @@ Upload the command in your plan to the server.
 
 ### Player information
 This is where you see the information of players.
-You will also create to-be-sent commands here.
+You will also create [to-be-confirmed commands](#command-information) here.
 
 You can choose which information to show by [these button](#player-information-buttons).
 The default is "Overview".
 
 ### Command information
+![command info](./images/command-info.png)
+
+Whenever you create a command from [player information](#player-information),
+the command will appear here. You can see the name of the command ("DummyCommand"),
+the universe time when the command is going to send ("Time: 0"),
+a description of the command ("Do nothing").
+
+If you want to send this command, click "Confirm" to add the command to your plan.
+You can view your previous (or next, if any) confirmed commands by clicking the
+arrow, and you can "Cancel" your confirmed commands.
