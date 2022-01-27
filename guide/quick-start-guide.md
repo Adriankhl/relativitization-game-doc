@@ -223,4 +223,17 @@ arrow, and you can "Cancel" your confirmed commands.
 In Relativitization, you see what would an AI do in your situation,
 and you can rely completely on that.
 
-Click "AI" in your top bar.
+Click "AI" in your top bar. Select the "DefaultAI", and click "Compute"
+to get a list of commands computed by the AI.
+
+![ai info](./images/ai-info.png)
+
+You can "Add" or "Remove" a specific computed command,
+or you can simply click "Use all" to put all the computed commands to your plan.
+
+Then you can click the [upload button](#upload-commands-button) to upload the commands in your
+plan to the server. The server may take a while to do the computation, then the button in 
+[server information](#server-information) will light up and you can click it to
+enter the next turn.
+
+And you can use the "DefaultAI" to make the decision for you once again.
