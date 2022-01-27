@@ -2,6 +2,7 @@
 1. [Core idea](#core-idea)
 2. [Create new game](#create-new-game)
 3. [Game UI](#game-ui)
+4. [Let AI do everything](#let-ai-do-everything)
 
 ## Core idea
 Though a computer game can never be fully realistic, a certain degree of realism makes a game more immersive
@@ -217,3 +218,9 @@ a description of the command ("Do nothing").
 If you want to send this command, click "Confirm" to add the command to your plan.
 You can view your previous (or next, if any) confirmed commands by clicking the
 arrow, and you can "Cancel" your confirmed commands.
+
+## Let AI do everything
+In Relativitization, you see what would an AI do in your situation,
+and you can rely completely on that.
+
+Click "AI" in your top bar.
