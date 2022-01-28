@@ -4,7 +4,7 @@
 2. [Create new game](#create-new-game)
 3. [Game UI](#game-ui)
 4. [Let AI do everything](#let-ai-do-everything)
-5. [Half-manual control for beginner](#half-manual-control-for-beginner)
+5. [Half-manual control for beginners](#half-manual-control-for-beginners)
 
 ## Core idea
 
@@ -236,10 +236,22 @@ server may take a while to complete the computation, then the button in
 
 Once again, you can use the "DefaultAI" to make the decision.
 
-## Half-manual control for beginner
+### Quit the game
+
+The game saves the universe automatically at the beginning of each turn.
+You can find the saved files in the `saves` directory where your game is located.
+
+To quit the game, you can directly close it, 
+or you can use the "Quit game" button in [settings](#settings-and-help-buttons).
+
+## Half-manual control for beginners
 
 Instead of relying completely on the AI, you may want to play the game yourself.
 
-Before you start a new universe, you may consider setting the human wait time limit in the 
+Now close the game and start a new universe.
+You may consider setting the human wait time limit in the 
 [server settings](#server-settings) to a high value, e.g., 10000000000.
+
+### Basic concepts
+
 
