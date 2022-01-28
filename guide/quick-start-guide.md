@@ -232,8 +232,8 @@ You can "Add" or "Remove" a specific computed command,
 or you can simply click "Use all" to put all the computed commands to your plan.
 
 Then you can click the [upload button](#upload-commands-button) to upload the commands in your
-plan to the server. The server may take a while to do the computation, then the button in 
-[server information](#server-information) will light up and you can click it to
+plan to the server. The server may take a while to complete the computation, then the button in 
+[server information](#server-information) will light up, and you can click it to
 enter the next turn.
 
-And you can use the "DefaultAI" to make the decision for you once again.
+Once again, you can use the "DefaultAI" to make the decision.
