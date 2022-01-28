@@ -330,3 +330,17 @@ buy resources from other players, and build factories to manufacture in the carr
 
 It is not easy to design a reasonable economic system for interstellar societies,
 so feel free to create an issue if you have any good idea.
+
+### A brief overview of your status
+
+#### Find yourself in the world map
+
+Now back to the game. 
+
+Zoom in by your "+" key, your finger, or [zoom buttons](#zoom-buttons).
+
+If you are not showing the "Overview" in [player information](#game-ui),
+click "Overview" in [player information buttons](#player-information-buttons).
+
+Then click your player icon under the "Overview: player 1", the world map should scroll
+to center at your position.
