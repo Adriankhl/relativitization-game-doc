@@ -238,7 +238,7 @@ Once again, you can use the "DefaultAI" to make the decision.
 
 ### Quit the game
 
-The game saves the universe automatically at the beginning of each turn.
+The game performs auto save at the beginning of each turn.
 You can find the saved files in the `saves` directory where your game is located.
 
 To quit the game, you can directly close it, 
@@ -254,4 +254,24 @@ You may consider setting the human wait time limit in the
 
 ### Basic concepts
 
+In Relativitization, the majority of mechanics are related to population,
+similar to many other games, we call it "pop".
 
+Types of pop:
+* Labourer
+* Scholar
+* Engineer
+* Educator
+* Medic
+* Service worker
+* Entertainer
+* Soldier
+
+"Carrier" is where pops work and reside on.
+A carrier has every type of pop in it, with a varying number of population.
+
+Types of carrier:
+* Stellar system
+* Spaceship
+
+One of more carrier form a player, the fundamental playable unit in Relativitization.
