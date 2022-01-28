@@ -254,8 +254,11 @@ You may consider setting the human wait time limit in the
 
 ### Basic concepts
 
-In Relativitization, the majority of mechanics are related to population,
-similar to many other games, we call it "pop".
+Let's introduce some basic concepts before going into the game.
+
+#### Pop and carrier
+
+Relativitization is centered around population, similar to many other games, we call it "pop".
 
 Types of pop:
 * Labourer
@@ -274,4 +277,33 @@ Types of carrier:
 * Stellar system
 * Spaceship
 
-One of more carrier form a player, the fundamental playable unit in Relativitization.
+One of more carriers form a player, the fundamental playable unit in Relativitization.
+
+#### Fuel and Resource
+
+In a huge world with speed limit imposed by relativity,
+credit-based currency may not work.
+Instead of paper money, fuel is used as the currency in Relativitization.
+Specifically, fuel is measured in rest mass (kg), and it can be turned into
+energy by the mass-energy equivalence.
+
+(For people who know some physics: we don't use energy as the currency because energy is not Lorentz invariant. )
+
+Roughly speaking, resources can be divided into 3 categories: primary, secondary, special.
+
+Primary resources:
+* Plant
+* Animal
+* Metal
+* Plastic
+
+Secondary resources:
+* Food
+* Cloth
+* Household good
+* Research equipment
+* Medicine
+* Ammunition
+
+Special resources:
+* Entertainment
