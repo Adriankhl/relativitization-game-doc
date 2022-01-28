@@ -307,3 +307,26 @@ Secondary resources:
 
 Special resources:
 * Entertainment
+
+#### Economy
+
+Regardless of whether a player is a leader of a subordinate or others, 
+the economy is local. Each player has a local stockpile of fuel and resources,
+local prices of resources, local demand and supply.
+
+Demand:
+* Pop daily need
+* Pop salary
+* Factory consumption
+* Institute and laboratory research need
+
+Supply:
+* Factory production
+* Stellar system has a base fuel production
+* Entertainer produces entertainment resource
+
+The local economies are not completely isolated, a player can send fuel and resources to other players,
+buy resources from other players, and build factories to manufacture in the carriers of other players.
+
+It is not easy to design a reasonable economic system for interstellar societies,
+so feel free to create an issue if you have any good idea.
