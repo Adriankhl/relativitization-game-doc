@@ -344,3 +344,12 @@ click "Overview" in [player information buttons](#player-information-buttons).
 
 Then click your player icon under the "Overview: player 1", the world map should scroll
 to center at your position.
+
+#### Your hierarchy
+
+Click "Players" in [player information buttons](#player-information-buttons).
+
+![player info players initial](./images/player-info-players-initial.png)
+
+You have no subordinate, and you are your own direct leader.
+
