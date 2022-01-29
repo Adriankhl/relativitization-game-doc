@@ -367,3 +367,11 @@ you will see you need a lot of food, but you don't produce any.
 
 To take a closer look at what is happening in your carrier,
 click "Pop system" in [player information buttons](#player-information-buttons).
+
+![player info pop system initial carrier](./images/player-info-pop-system-initial-carrier.png)
+
+You only have a carrier "0". It is a stellar system.
+It has a huge mass (~ 1E30 kg) and a big ideal population.
+The "Max. movement fuel delta" corresponds to how much fuel you
+can use per turn to move this player, which the stellar carrier in this case.
+Typically, it is impractical to move a player with a stellar system.
