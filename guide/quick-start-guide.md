@@ -345,7 +345,7 @@ click "Overview" in [player information buttons](#player-information-buttons).
 Then click your player icon under the "Overview: player 1", the world map should scroll
 to center at your position.
 
-#### Your hierarchy
+#### Your hierarchy and summary
 
 Click "Players" in [player information buttons](#player-information-buttons).
 
@@ -353,3 +353,12 @@ Click "Players" in [player information buttons](#player-information-buttons).
 
 You have no subordinate, and you are your own direct leader.
 
+Click "Compute summary".
+
+![player info players initial summary](./images/player-info-players-initial-summary.png)
+
+It shows some basic statistics of your player, including population, the satisfaction of your population,
+military information, supply and demand of fuel and resources. 
+As of now, you don't need any plant. 
+If you select "Food" instead of "Plant",
+you will see you need a lot of food, but you don't produce any.
