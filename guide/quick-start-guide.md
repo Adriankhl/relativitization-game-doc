@@ -362,3 +362,8 @@ military information, supply and demand of fuel and resources.
 As of now, you don't need any plant. 
 If you select "Food" instead of "Plant",
 you will see you need a lot of food, but you don't produce any.
+
+#### Carrier and pop
+
+To take a closer look at what is happening in your carrier,
+click "Pop system" in [player information buttons](#player-information-buttons).
