@@ -402,3 +402,8 @@ ensure that you pay the pop well, so they have sufficient fuel to buy the desire
 
 Resources are manufactured by factories. You can click the "Common" button to hide the
 common pop data, and you will find the "Build factory commands" section.
+
+![player info pop system initial build factory](./images/player-info-pop-system-initial-build-factory.png)
+
+You can try to click the "Build resource factory button". However, as you can see in
+[fuel information in top bar](#fuel-information), you have zero production fuel.
