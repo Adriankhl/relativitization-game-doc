@@ -32,8 +32,8 @@ are also players, they may have their subordinates, and they have autonomy. You 
 player.
 
 The game is turn-based. In a turn, you make your decision to add some commands in your plan, then you send your commands
-out, note that commands may take several turns to reach the target. Then you enter the next turn to get the new view of
-the universe, which is mostly the past state of other player due to the distance.
+out, note that commands may take several turns to reach the target. After that, you enter the next turn to get the new
+view of the universe, which are mostly the past states of other players due to the distance.
 
 This game aim at giving you a feeling of immersion as if this is how our future will actually look like, given that our
 current understanding of physics is not too far off.
