@@ -375,3 +375,17 @@ It has a huge mass (~ 1E30 kg) and a big ideal population.
 The "Max. movement fuel delta" corresponds to how much fuel you
 can use per turn to move this player, which the stellar carrier in this case.
 Typically, it is impractical to move a player with a stellar system.
+
+![player info pop system initial labourer](./images/player-info-pop-system-initial-labourer-common-1.png)
+
+![player info pop system initial labourer](./images/player-info-pop-system-initial-labourer-common-2.png)
+
+"Common pop data" is the common property of a pop regardless of the pop type.
+The labourer pop in this carrier has 1000000 population, 1.0 education level, 0 unemployment rate,
+0 satisfaction, and 1E-6 salary.
+
+Satisfaction affects population growth and other functionalities of pop.
+To increase satisfaction, the desire of the pop has to be fulfilled.
+Pop will buy their desire resources automatically.
+As a player, you have to ensure that you pay the pop sufficiently,
+and you have sufficient resource for the pop to buy.
