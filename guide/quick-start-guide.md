@@ -166,10 +166,11 @@ From left to right:
 ![top bar fuel](./images/top-bar-fuel.png)
 
 Your stock of fuel is divided into 4 categories:
+
 * Trade (upper-left): for trading with other player
 * Production (upper-right): for paying salary and manufacturing
 * Movement (lower-left): for moving this player
-* Storage (lower-right): not being used unless actively transfer to other categories
+* Storage (lower-right): not being used unless transfer to other categories
 
 #### Player information buttons
 
@@ -248,18 +249,17 @@ Once again, you can use the "DefaultAI" to make the decision.
 
 ### Quit the game
 
-The game performs auto save at the beginning of each turn.
-You can find the saved files in the `saves` directory where your game is located.
+The game performs auto save at the beginning of each turn. You can find the saved files in the `saves` directory where
+your game is located.
 
-To quit the game, you can directly close it, 
-or you can use the "Quit game" button in [settings](#settings-and-help-buttons).
+To quit the game, you can directly close it, or you can use the "Quit game" button
+in [settings](#settings-and-help-buttons).
 
 ## Half-manual control for beginners
 
 Instead of relying completely on the AI, you may want to play the game yourself.
 
-Now close the game and start a new universe.
-You may consider setting the human wait time limit in the 
+Now close the game and start a new universe. You may consider setting the human wait time limit in the
 [server settings](#server-settings) to a high value, e.g., 10000000000.
 
 ### Basic concepts
@@ -271,30 +271,29 @@ Let's introduce some basic concepts before going into the game.
 Relativitization is centered around population, similar to many other games, we call it "pop".
 
 Types of pop:
-* Labourer
-* Scholar
-* Engineer
-* Educator
-* Medic
-* Service worker
-* Entertainer
-* Soldier
 
-"Carrier" is where pops work and reside on.
-A carrier has every type of pop in it, with a varying number of population.
+* Labourer: work in factory to produce fuel and resource
+* Scholar: do basic research
+* Engineer: do applied research
+* Educator: educate pop
+* Medic: provide medical environment to improve population growth
+* Service worker: trading of resources
+* Entertainer: provide entertainment
+* Soldier: fight war
+
+"Carrier" is where pops work and reside on. A carrier has every type of pop in it, with a varying number of population.
 
 Types of carrier:
-* Stellar system
-* Spaceship
+
+* Stellar system: provide basic fuel supply, huge mass
+* Spaceship: can be built by player
 
 One of more carriers form a player, the fundamental playable unit in Relativitization.
 
 #### Fuel and Resource
 
-In a huge world with speed limit imposed by relativity,
-credit-based currency may not work.
-Instead of paper money, fuel is used as the currency in Relativitization.
-Specifically, fuel is measured in rest mass (kg), and it can be turned into
+In a huge world with speed limit imposed by relativity, credit-based currency may not work. Instead of paper money, fuel
+is used as the currency in Relativitization. Specifically, fuel is measured in rest mass (kg), and it can be turned into
 energy by the mass-energy equivalence.
 
 (For people who know some physics: we don't use energy as the currency because energy is not Lorentz invariant. )
@@ -302,58 +301,74 @@ energy by the mass-energy equivalence.
 Roughly speaking, resources can be divided into 3 categories: primary, secondary, special.
 
 Primary resources:
+
 * Plant
 * Animal
 * Metal
 * Plastic
 
 Secondary resources:
-* Food
-* Cloth
-* Household good
-* Research equipment
-* Medicine
-* Ammunition
+
+* Food: need animal and plant
+* Cloth: need animal and plastic
+* Household good: need plant and plastic
+* Research equipment: need animal and metal
+* Medicine: need plant and metal
+* Ammunition: need metal and plastic
 
 Special resources:
-* Entertainment
+
+* Entertainment: produced by entertainer
+
+All resources have a property called "quality". Primary resources are only needed for producing secondary resource in
+factory. Secondary and special resources are needed by pop, but special resources are not produced in factory.
 
 #### Economy
 
-Regardless of whether a player is a leader of a subordinate or others, 
-the economy is local. Each player has a local stockpile of fuel and resources,
-local prices of resources, local demand and supply.
+Regardless of whether a player is a leader of a subordinate or others, the economy is local. Each player has a local
+stock of fuel and resources, local prices of resources, local demand and supply.
+
+The local stock is divided into 3 categories:
+
+* Trade: allow pop and other players to buy here
+* Production: your factories will consume resources here
+* Storage: not being used unless transfer to other categories
+
+Since all there resources has the "quality" property, to simulate a market where there are multiple options of a type of
+product, each resource is divided into 3 classes in the local stock with decreasing qualities:
+first, second, and third.
+
+Each class of resources has a price, the prices are affected by the ratio between the demand and the resources available
+in the "trade" stock.
 
 Demand:
+
 * Pop daily need
 * Pop salary
 * Factory consumption
 * Institute and laboratory research need
 
 Supply:
+
 * Factory production
 * Stellar system has a base fuel production
 * Entertainer produces entertainment resource
 
-The local economies are not completely isolated, a player can send fuel and resources to other players,
-buy resources from other players, and build factories to manufacture in the carriers of other players.
-
-It is not easy to design a reasonable economic system for interstellar societies,
-so feel free to create an issue if you have any good idea.
+The local economies are not completely isolated, a player can send fuel and resources to other players, buy resources
+from other players, and build factories to manufacture in the carriers of other players.
 
 ### A brief overview of your status
 
 #### Find yourself in the world map
 
-Now back to the game. 
+Now back to the game.
 
 Zoom in by your "+" key, your finger, or [zoom buttons](#zoom-buttons).
 
-If you are not showing the "Overview" in [player information](#game-ui),
-click "Overview" in [player information buttons](#player-information-buttons).
+If you are not showing the "Overview" in [player information](#game-ui), click "Overview"
+in [player information buttons](#player-information-buttons).
 
-Then click your player icon under the "Overview: player 1", the world map should scroll
-to center at your position.
+Then click your player icon under the "Overview: player 1", the world map should scroll to center at your position.
 
 #### Your hierarchy and summary
 
@@ -367,41 +382,34 @@ Click "Compute summary".
 
 ![player info players initial summary](./images/player-info-players-initial-summary.png)
 
-It shows some basic statistics of your player, including population, the satisfaction of your population,
-military information, supply and demand of fuel and resources. 
-As of now, you don't need any plant. 
-If you select "Food" instead of "Plant",
-you will see you need a lot of food, but you don't produce any.
+It shows some basic statistics of your player, including population, the satisfaction of your population, military
+information, supply and demand of fuel and resources. As of now, you don't need any plant. If you select "Food" instead
+of "Plant", you will see you need a lot of food, but you don't produce any.
 
 #### Carrier and pop
 
-To take a closer look at what is happening in your carrier,
-click "Pop system" in [player information buttons](#player-information-buttons).
+To take a closer look at what is happening in your carrier, click "Pop system"
+in [player information buttons](#player-information-buttons).
 
 ![player info pop system initial carrier](./images/player-info-pop-system-initial-carrier.png)
 
-You only have a carrier "0". It is a stellar system.
-It has a huge mass (~ 1E30 kg) and a big ideal population.
-The "Max. movement fuel delta" corresponds to how much fuel you
-can use per turn to move this player, which the stellar carrier in this case.
-Typically, it is impractical to move a player with a stellar system.
+You only have a carrier "0". It is a stellar system. It has a huge mass (~ 1E30 kg) and a big ideal population. The
+"Max. movement fuel delta" corresponds to how much fuel you can use per turn to move this player, which the stellar
+carrier in this case. Typically, it is impractical to move a player with a stellar system.
 
 ![player info pop system initial labourer](./images/player-info-pop-system-initial-labourer-common-1.png)
 
 ![player info pop system initial labourer](./images/player-info-pop-system-initial-labourer-common-2.png)
 
-"Common pop data" is the common property of a pop regardless of the pop type.
-The labourer pop in this carrier has 1000000 population, 1.0 education level, 0 unemployment rate,
-0 satisfaction, and 1E-6 salary.
+"Common pop data" is the common property of a pop regardless of the pop type. The labourer pop in this carrier has
+1000000 population, 1.0 education level, 0 unemployment rate, 0 satisfaction, and 1E-6 salary.
 
-Satisfaction affects population growth and other functionalities of pop.
-To increase satisfaction, the desire of the pop has to be fulfilled.
-Pop will buy their desire resources automatically.
-As a player, you need to have sufficient resource, and
-ensure that you pay the pop well, so they have sufficient fuel to buy the desired resource.
+Satisfaction affects population growth and other functionalities of pop. To increase satisfaction, the desire of the pop
+has to be fulfilled. Pop will buy their desire resources automatically. As a player, you need to have sufficient
+resource, and ensure that you pay the pop well, so they have sufficient fuel to buy the desired resource.
 
-Resources are manufactured by factories. You can click the "Common" button to hide the
-common pop data, and you will find the "Build factory commands" section.
+Resources are manufactured by factories. You can click the "Common" button to hide the common pop data, and you will
+find the "Build factory commands" section.
 
 ![player info pop system initial build factory](./images/player-info-pop-system-initial-build-factory.png)
 
@@ -410,12 +418,12 @@ You can try to click the "Build resource factory button". However, as you can se
 
 ![cannot send command](./images/command-info-cannot-send.png)
 
-And you will see this in the [command information](#command-information).
-It tells you that this command cannot be sent, with the reason "Not enough fuel rest mass".
+And you will see this in the [command information](#command-information). It tells you that this command cannot be sent,
+with the reason "Not enough fuel rest mass".
 
-To fix this, you need to transfer your fuel from storage to production.
-You can do this by clicking "Economy" in [player information buttons](#player-information-buttons)
-to see the manual option. However, since it is quite tedious to do this every time,
-it is recommended to use the AI.
+To fix this, you need to transfer your fuel from storage to production. You can do this by clicking "Economy"
+in [player information buttons](#player-information-buttons)
+to see the manual option. However, since it is quite tedious to do this every time, it is recommended to use the AI.
 
 ### DefaultFuelResourceSalaryAI
+
