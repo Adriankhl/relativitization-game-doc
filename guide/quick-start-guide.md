@@ -24,16 +24,19 @@ unconventional concepts:
 * typically, you observe the past state instead of the current state of other players
 * whenever you want to interact with a player, including yourself, you send a command. The command travels at the speed
   of light
-* time-dependent mechanisms may not be calculated once per turn due to time dilation
+* time-dependent mechanisms may not be executed once per turn due to time dilation
 
 Due to the restriction of the speed of information travel, you cannot directly control your whole territory. Instead,
 you have a set of direct subordinates, and you can ask them to do things by sending commands. Your direct subordinates
 are also players, they may have their subordinates, and they have autonomy. You might also be a subordinate of other
-player!
-If you are a fan of grand strategy game, you can probably figure out that this is inspired by the Crusader Kings.
+player.
 
-We believe this unconventional game design can give you a special feeling of immersion as if this is how our future will
-actually look like, given that our current understanding of physics is not too far off.
+The game is turn-based. In a turn, you make your decision to add some commands in your plan, then you send your commands
+out, note that commands may take several turns to reach the target. Then you enter the next turn to get the new view of
+the universe, which is mostly the past state of other player due to the distance.
+
+This game aim at giving you a feeling of immersion as if this is how our future will actually look like, given that our
+current understanding of physics is not too far off.
 
 ## Create new game
 
@@ -427,3 +430,10 @@ to see the manual option. However, since it is quite tedious to do this every ti
 
 ### DefaultFuelResourceSalaryAI
 
+Adjusting the salary, and transferring fuel and resources from storage to other categories should be done on a regular
+basis, and these are quite tedious. Therefore, Relativitization prepare a simple AI called
+"DefaultFuelResourceSalaryAI" to manage these things.
+
+Similar to how you do with the [default AI](#let-ai-do-everything), just click "AI" in the
+[player information buttons](#player-information-buttons), select "DefaultFuelResourceSalaryAI" instead of "DefaultAI",
+click "Compute" and "Use all" to put all the commands in your plan.
