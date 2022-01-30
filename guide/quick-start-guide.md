@@ -161,6 +161,16 @@ From left to right:
 * Clear all commands in plan
 * Clear all selected players
 
+#### Fuel information
+
+![top bar fuel](./images/top-bar-fuel.png)
+
+Your stock of fuel is divided into 4 categories:
+* Trade (upper-left): for trading with other player
+* Production (upper-right): for paying salary and manufacturing
+* Movement (lower-left): for moving this player
+* Storage (lower-right): not being used unless actively transfer to other categories
+
 #### Player information buttons
 
 ![top bar player info left](./images/top-bar-player-info-left.png)
