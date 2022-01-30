@@ -407,3 +407,15 @@ common pop data, and you will find the "Build factory commands" section.
 
 You can try to click the "Build resource factory button". However, as you can see in
 [fuel information in top bar](#fuel-information), you have zero production fuel.
+
+![cannot send command](./images/command-info-cannot-send.png)
+
+And you will see this in the [command information](#command-information).
+It tells you that this command cannot be sent, with the reason "Not enough fuel rest mass".
+
+To fix this, you need to transfer your fuel from storage to production.
+You can do this by clicking "Economy" in [player information buttons](#player-information-buttons)
+to see the manual option. However, since it is quite tedious to do this every time,
+it is recommended to use the AI.
+
+### DefaultFuelResourceSalaryAI
