@@ -397,5 +397,8 @@ The labourer pop in this carrier has 1000000 population, 1.0 education level, 0 
 Satisfaction affects population growth and other functionalities of pop.
 To increase satisfaction, the desire of the pop has to be fulfilled.
 Pop will buy their desire resources automatically.
-As a player, you have to ensure that you pay the pop sufficiently,
-and you have sufficient resource for the pop to buy.
+As a player, you need to have sufficient resource, and
+ensure that you pay the pop well, so they have sufficient fuel to buy the desired resource.
+
+Resources are manufactured by factories. You can click the "Common" button to hide the
+common pop data, and you will find the "Build factory commands" section.
