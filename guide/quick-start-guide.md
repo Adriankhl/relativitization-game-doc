@@ -426,7 +426,8 @@ with the reason "Not enough fuel rest mass".
 
 To fix this, you need to transfer your fuel from storage to production. You can do this by clicking "Economy"
 in [player information buttons](#player-information-buttons)
-to see the manual option. However, since it is quite tedious to do this every time, it is recommended to use the AI.
+to see the manual option. However, since it is quite tedious to do this every time, AI provided by the game can automate
+this process.
 
 ### DefaultFuelResourceSalaryAI
 
@@ -437,3 +438,5 @@ basis, and these are quite tedious. Therefore, Relativitization prepare a simple
 Similar to how you do with the [default AI](#let-ai-do-everything), just click "AI" in the
 [player information buttons](#player-information-buttons), select "DefaultFuelResourceSalaryAI" instead of "DefaultAI",
 click "Compute" and "Use all" to put all the commands in your plan.
+
+### Construction
