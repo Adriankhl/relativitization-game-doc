@@ -4,7 +4,7 @@
 2. [Create new game](#create-new-game)
 3. [Game UI](#game-ui)
 4. [Let AI do everything](#let-ai-do-everything)
-5. [Half-manual control for beginners](#half-manual-control-for-beginners)
+5. [Play the game yourself](#play-the-game-yourself)
 
 ## Core idea
 
@@ -258,7 +258,7 @@ your game is located.
 To quit the game, you can directly close it, or you can use the "Quit game" button
 in [settings](#settings-and-help-buttons).
 
-## Half-manual control for beginners
+## Play the game yourself
 
 Instead of relying completely on the AI, you may want to play the game yourself.
 
@@ -411,6 +411,18 @@ Satisfaction affects population growth and other functionalities of pop. To incr
 has to be fulfilled. Pop will buy their desire resources automatically. As a player, you need to have sufficient
 resource, and ensure that you pay the pop well, so they have sufficient fuel to buy the desired resource.
 
+### DefaultSalaryAI
+
+You can manually adjust the salary by the "Change salary" button.
+However, it can be quite tedious to do this every turn, especially if you have many carriers.
+The game provide a "DefaultSalaryAI" to automate this.
+
+Similar to how you do with the [default AI](#let-ai-do-everything), click "AI" in the
+[player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI",
+click "Compute" and "Use all" to put all the commands in your plan.
+
+### Construction
+
 Resources are manufactured by factories. You can click the "Common" button to hide the common pop data, and you will
 find the "Build factory commands" section.
 
@@ -428,15 +440,3 @@ To fix this, you need to transfer your fuel from storage to production. You can 
 in [player information buttons](#player-information-buttons)
 to see the manual option. However, since it is quite tedious to do this every time, AI provided by the game can automate
 this process.
-
-### DefaultFuelResourceSalaryAI
-
-Adjusting the salary, and transferring fuel and resources from storage to other categories should be done on a regular
-basis, and these are quite tedious. Therefore, Relativitization prepare a simple AI called
-"DefaultFuelResourceSalaryAI" to manage these things.
-
-Similar to how you do with the [default AI](#let-ai-do-everything), just click "AI" in the
-[player information buttons](#player-information-buttons), select "DefaultFuelResourceSalaryAI" instead of "DefaultAI",
-click "Compute" and "Use all" to put all the commands in your plan.
-
-### Construction
