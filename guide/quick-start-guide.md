@@ -411,11 +411,23 @@ Satisfaction affects population growth and other functionalities of pop. To incr
 has to be fulfilled. Pop will buy their desire resources automatically. As a player, you need to have sufficient
 resource, and ensure that you pay the pop well, so they have sufficient fuel to buy the desired resource.
 
-### DefaultSalaryAI
+### Adjust salary
 
-You can manually adjust the salary by the "Change salary" button.
-However, it can be quite tedious to do this every turn, especially if you have many carriers.
-The game provide a "DefaultSalaryAI" to automate this.
+You can adjust the salary of a pop manually, or use "DefaultSalaryAI" to adjust salaries of all pop.
+
+#### Option 1: manual
+
+You can type in the "Target salary" text field to change your target.
+Alternatively, you can use the slider and the "-", "+" buttons below. The slider change the coefficient of the number
+in scientific notation, the "-" button reduces the number by 10 times, and the "+" button increases the number by 10
+times.
+
+Once you are done, click "Change salary" and click "Confirm" in the [command information](#command-information).
+You may select other pop type under "Pop:" to change their salary as well.
+
+#### Option 2: DefaultSalaryAI
+
+Adjusting salary can be tedious if you have many carriers, so the game provide a "DefaultSalaryAI" to automate this.
 
 Similar to how you do with the [default AI](#let-ai-do-everything), click "AI" in the
 [player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI",
