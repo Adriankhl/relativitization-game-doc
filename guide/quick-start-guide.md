@@ -173,7 +173,7 @@ Your stock of fuel is divided into 4 categories:
 * Trade (upper-left): for trading with other player
 * Production (upper-right): for paying salary and manufacturing
 * Movement (lower-left): for moving this player
-* Storage (lower-right): not being used unless transfer to other categories
+* Storage (lower-right): not being used, can be transferred to other categories, but not vice versa
 
 #### Player information buttons
 
@@ -436,7 +436,7 @@ You can try to click the "Build resource factory button". However, as you can se
 And you will see this in the [command information](#command-information). It tells you that this command cannot be sent,
 with the reason "Not enough fuel rest mass".
 
-To fix this, you need to transfer your fuel from storage to production. You can do this by clicking "Economy"
-in [player information buttons](#player-information-buttons)
-to see the manual option. However, since it is quite tedious to do this every time, AI provided by the game can automate
-this process.
+To fix this, you need to send your fuel from storage to production.
+Typically, the game will manage the fuel distribution for you based on your preset proportion,
+but the fuel is all located at the "storage" category in your first turn to give you more control.
+Let's click "Economy" in [player information buttons](#player-information-buttons).
