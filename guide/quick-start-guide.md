@@ -440,3 +440,10 @@ To fix this, you need to send your fuel from storage to production.
 Typically, the game will manage the fuel distribution for you based on your preset proportion,
 but the fuel is all located at the "storage" category in your first turn to give you more control.
 Let's click "Economy" in [player information buttons](#player-information-buttons).
+
+![player info economy initial fuel](./images/player-info-economy-initial-fuel.png)
+
+It shows your current fuel and your default fuel proportion.
+To manually trigger the fuel distribution, slide the slider under "Send fuel to this player" to max (right),
+then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
+You will see your "production" fuel is now 5.0E8.
