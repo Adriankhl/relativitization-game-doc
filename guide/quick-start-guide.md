@@ -498,7 +498,7 @@ Go back to "Pop System" and select "Scholar" under "Pop:". You wil see "Build in
 The "New institute knowledge x" and "New institute knowledge y" correspond to the position in
 [knowledge map](#knowledge-map).
 
-### Knowledge map
+#### Knowledge map
 
 Click "Knowledge Map" in [player information buttons](#player-information-buttons).
 
@@ -549,3 +549,14 @@ Now do the same thing for laboratory.
 Click on a transparent wrench. Go to "Pop System".
 Select "Engineer" under "Pop:", this time increase the "New laboratory knowledge range" to 2.5 (just click the "+").
 Click "Build laboratory" and "Confirm". You should see a laboratory with a much bigger white circle.
+
+![player info knowledge map project institute laboratory](./images/player-info-knowledge-map-project-map-institute-laboratory.png)
+
+#### Build more
+
+A larger range institute/laboratory cover a larger research space, but the average strength is lower.
+
+Build more institute and laboratory wherever you like. 5+ institutes and 5+ laboratories with the default
+"Max. employee" avoid scholar and engineer to be unemployed.
+In the future, when you started to produce "Research equipment", you can also increase the "Max. equipment consumption"
+to speed up your research.
