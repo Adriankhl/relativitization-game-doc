@@ -433,7 +433,7 @@ Similar to how you do with the [default AI](#let-ai-do-everything), click "AI" i
 [player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI",
 click "Compute" and "Use all" to put all the commands in your plan.
 
-### Construction
+### Factories
 
 Resources are manufactured by factories. You can click the "Common" button to hide the common pop data, and you will
 find the "Build factory commands" section.
@@ -460,7 +460,7 @@ To manually trigger the fuel distribution, slide the slider under "Send fuel to 
 then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
 You will see your "production" fuel is now 5.0E8.
 
-### Resource factories
+#### Resource factories
 
 Now go back to "Pop System". Click "Build resource factory" and "Confirm".
 You should now see a plant factory under "Factories:".
@@ -473,9 +473,15 @@ Now repeat the same step for every resource, you can choose the resource of the 
 under "Build resource factory". For secondary resources, such as "Food", you will see it requires some primary resources
 as input after you created the factory.
 
-### Fuel factory
+#### Fuel factory
 
 There is some production fuel left.
 You should use this to build a fuel factory. Click "Build fuel factory" and "Confirm".
 
 ![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
+
+### Research
+
+Similar to [economy](#economy), knowledge in Relativitization is also local to any player.
+To view the information, click "Science" in the [player information buttons](#player-information-buttons).
+
