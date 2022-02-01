@@ -536,3 +536,16 @@ Click "Build institute" and "Confirm".
 Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
 the [knowledge map control buttons](#knowledge-map-control-buttons).
 
+![player info knowledge map project institute](./images/player-info-knowledge-map-project-map-institute.png)
+
+The institute should be located on top of the position you selected.
+If you decrease the icon size, you can see a small circle around the institute. It is the range where the institute
+will be responsible to research.
+
+#### Laboratory
+
+Now do the same thing for laboratory.
+
+Click on a transparent wrench. Go to "Pop System".
+Select "Engineer" under "Pop:", this time increase the "New laboratory knowledge range" to 2.5 (just click the "+").
+Click "Build laboratory" and "Confirm". You should see a laboratory with a much bigger white circle.
