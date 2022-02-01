@@ -529,3 +529,10 @@ You can click on a book or wrench to see the detail on the right of
 the [knowledge map control buttons](#knowledge-map-control-buttons).
 
 #### Institute
+
+Click on a transparent book. Then go back to "Pop System"
+You can see that the "New institute knowledge x" and "New institute knowledge y" have changed.
+Click "Build institute" and "Confirm".
+Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
+the [knowledge map control buttons](#knowledge-map-control-buttons).
+
