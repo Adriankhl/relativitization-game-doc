@@ -464,3 +464,16 @@ You will see your "production" fuel is now 5.0E8.
 
 Now go back to "Pop System". Click "Build resource factory" and "Confirm".
 You should now see a plant factory under "Factories:".
+
+![player info pop system plant factory](./images/player-info-pop-system-plant-factory.png)
+
+It will hire labourer and consume production fuel to produce "Plant" automatically.
+
+Now repeat the same step for every resource, you can choose the resource of the factory in "Output resource:"
+under "Build resource factory". For secondary resources, such as "Food", you will see it requires some primary resources
+as input after you created the factory.
+
+### Fuel factory
+
+There is extra production fuel left.
+You should use this to build a fuel factory. Click "Build fuel factory" and "Confirm".
