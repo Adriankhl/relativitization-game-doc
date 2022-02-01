@@ -459,3 +459,8 @@ It shows your current fuel and your default fuel proportion.
 To manually trigger the fuel distribution, slide the slider under "Send fuel to this player" to max (right),
 then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
 You will see your "production" fuel is now 5.0E8.
+
+### Resource factories
+
+Now go back to "Pop System". Click "Build resource factory" and "Confirm".
+You should now see a plant factory under "Factories:".
