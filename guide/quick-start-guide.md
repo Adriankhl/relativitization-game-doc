@@ -494,3 +494,7 @@ To view the information, click "Science" in the [player information buttons](#pl
 The knowledge is divided to basic knowledge and applied knowledge.
 Basic research is conducted by "scholar" at "institute".
 Applied research is conducted by "engineer" at "laboratory".
+
+Go back to "Pop System" and select "Scholar" under "Pop:". You wil see "Build institute commands".
+
+![player info pop system initial build institute](./images/player-info-pop-system-initial-build-institute.png)
