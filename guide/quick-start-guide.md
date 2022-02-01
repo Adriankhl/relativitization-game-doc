@@ -417,21 +417,20 @@ You can adjust the salary of a pop manually, or use "DefaultSalaryAI" to adjust 
 
 #### Option 1: manual
 
-You can type in the "Target salary" text field to change your target.
-Alternatively, you can use the slider and the "-", "+" buttons below. The slider change the coefficient of the number
-in scientific notation, the "-" button reduces the number by 10 times, and the "+" button increases the number by 10
-times.
+You can type in the "Target salary" text field to change your target. Alternatively, you can use the slider and the "-"
+, "+" buttons below. The slider change the coefficient of the number in scientific notation, the "-" button reduces the
+number by 10 times, and the "+" button increases the number by 10 times.
 
-Once you are done, click "Change salary" and click "Confirm" in the [command information](#command-information).
-You may select other pop type under "Pop:" to change their salary as well.
+Once you are done, click "Change salary" and click "Confirm" in the [command information](#command-information). You may
+select other pop type under "Pop:" to change their salary as well.
 
 #### Option 2: DefaultSalaryAI
 
 Adjusting salary can be tedious if you have many carriers, so the game provide a "DefaultSalaryAI" to automate this.
 
 Similar to how you do with the [default AI](#let-ai-do-everything), click "AI" in the
-[player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI",
-click "Compute" and "Use all" to put all the commands in your plan.
+[player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI", click "
+Compute" and "Use all" to put all the commands in your plan.
 
 ### Factories
 
@@ -448,22 +447,20 @@ You can try to click the "Build resource factory button". However, as you can se
 And you will see this in the [command information](#command-information). It tells you that this command cannot be sent,
 with the reason "Not enough fuel rest mass".
 
-To fix this, you need to send your fuel from storage to production.
-Typically, the game will manage the fuel distribution for you based on your preset proportion,
-but the fuel is all located at the "storage" category in your first turn to give you more control.
-Let's click "Economy" in [player information buttons](#player-information-buttons).
+To fix this, you need to send your fuel from storage to production. Typically, the game will manage the fuel
+distribution for you based on your preset proportion, but the fuel is all located at the "storage" category in your
+first turn to give you more control. Let's click "Economy" in [player information buttons](#player-information-buttons).
 
 ![player info economy initial fuel](./images/player-info-economy-initial-fuel.png)
 
-It shows your current fuel and your default fuel proportion.
-To manually trigger the fuel distribution, slide the slider under "Send fuel to this player" to max (right),
-then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
-You will see your "production" fuel is now 5.0E8.
+It shows your current fuel and your default fuel proportion. To manually trigger the fuel distribution, slide the slider
+under "Send fuel to this player" to max (right), then click "Send fuel to this player" and click "Confirm" in
+the [command information](#command-information). You will see your "production" fuel is now 5.0E8.
 
 #### Resource factories
 
-Now go back to "Pop System". Click "Build resource factory" and "Confirm".
-You should now see a plant factory under "Factories:".
+Now go back to "Pop System". Click "Build resource factory" and "Confirm". You should now see a plant factory under "
+Factories:".
 
 ![player info pop system plant factory](./images/player-info-pop-system-plant-factory.png)
 
@@ -475,15 +472,15 @@ as input after you created the factory.
 
 #### Fuel factory
 
-There is some production fuel left.
-You should use this to build a fuel factory. Click "Build fuel factory" and "Confirm".
+There is some production fuel left. You should use this to build a fuel factory. Click "Build fuel factory" and "
+Confirm".
 
 ![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
 
 ### Research
 
-Similar to [economy](#economy), knowledge in Relativitization is also local to any player.
-To view the information, click "Science" in the [player information buttons](#player-information-buttons).
+Similar to [economy](#economy), knowledge in Relativitization is also local to any player. To view the information,
+click "Science" in the [player information buttons](#player-information-buttons).
 
 ![player info science buttons](./images/player-info-science-buttons.png).
 
@@ -491,15 +488,14 @@ To view the information, click "Science" in the [player information buttons](#pl
 * Player knowledge: the knowledge level of this player
 * Science application: the practical impact of the player knowledge
 
-The knowledge is divided to basic knowledge and applied knowledge.
-Basic research is conducted by "scholar" at "institute".
-Applied research is conducted by "engineer" at "laboratory".
+The knowledge is divided to basic knowledge and applied knowledge. Basic research is conducted by "scholar" at "
+institute". Applied research is conducted by "engineer" at "laboratory".
 
 Go back to "Pop System" and select "Scholar" under "Pop:". You wil see "Build institute commands".
 
 ![player info pop system initial build institute](./images/player-info-pop-system-initial-build-institute.png)
 
-The "New institute knowledge x" and "New institute knowledge y" correspond to the position in 
+The "New institute knowledge x" and "New institute knowledge y" correspond to the position in
 [knowledge map](#knowledge-map).
 
 ### Knowledge map
@@ -511,7 +507,25 @@ Click "Knowledge Map" in [player information buttons](#player-information-button
 ![player info knowledge map control buttons](./images/player-info-knowledge-map-control-buttons.png)
 
 From left to right:
+
 * Zoom in the whole knowledge map
 * Zoom out the whole knowledge map
 * Increase the icon size in the knowledge map
 * Decrease the icon size in knowledge map
+
+#### Project map
+
+![player info knowledge map project map](./images/player-info-knowledge-map-project-map.png)
+
+Since there is randomness, your project map should look slightly different from this:
+
+* Opaque book: done basic project
+* Transparent book: known basic project
+* Opaque wrench: done applied project
+* Transparent wrench: known applied project
+* Arrow: project dependency
+
+You can click on a book or wrench to see the detail on the right of
+the [knowledge map control buttons](#knowledge-map-control-buttons).
+
+#### Institute
