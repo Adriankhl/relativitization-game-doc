@@ -505,3 +505,13 @@ The "New institute knowledge x" and "New institute knowledge y" correspond to th
 ### Knowledge map
 
 Click "Knowledge Map" in [player information buttons](#player-information-buttons).
+
+#### Knowledge map control buttons
+
+![player info knowledge map control buttons](./images/player-info-knowledge-map-control-buttons.png)
+
+From left to right:
+* Zoom in the whole knowledge map
+* Zoom out the whole knowledge map
+* Increase the icon size in the knowledge map
+* Decrease the icon size in knowledge map
