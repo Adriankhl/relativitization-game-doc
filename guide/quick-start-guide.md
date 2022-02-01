@@ -485,3 +485,12 @@ You should use this to build a fuel factory. Click "Build fuel factory" and "Con
 Similar to [economy](#economy), knowledge in Relativitization is also local to any player.
 To view the information, click "Science" in the [player information buttons](#player-information-buttons).
 
+![player info science buttons](./images/player-info-science-buttons.png).
+
+* Common sense: the common knowledge shared by all player
+* Player knowledge: the knowledge level of this player
+* Science application: the practical impact of the player knowledge
+
+The knowledge is divided to basic knowledge and applied knowledge.
+Basic research is conducted by "scholar" at "institute".
+Applied research is conducted by "engineer" at "laboratory".
