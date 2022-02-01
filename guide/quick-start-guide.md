@@ -475,5 +475,7 @@ as input after you created the factory.
 
 ### Fuel factory
 
-There is extra production fuel left.
+There is some production fuel left.
 You should use this to build a fuel factory. Click "Build fuel factory" and "Confirm".
+
+![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
