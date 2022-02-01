@@ -498,3 +498,10 @@ Applied research is conducted by "engineer" at "laboratory".
 Go back to "Pop System" and select "Scholar" under "Pop:". You wil see "Build institute commands".
 
 ![player info pop system initial build institute](./images/player-info-pop-system-initial-build-institute.png)
+
+The "New institute knowledge x" and "New institute knowledge y" correspond to the position in 
+[knowledge map](#knowledge-map).
+
+### Knowledge map
+
+Click "Knowledge Map" in [player information buttons](#player-information-buttons).
