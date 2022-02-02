@@ -563,6 +563,15 @@ to speed up your research.
 
 ### New carrier
 
-You still have some production fuel. Let's create a new carrier.
+You still have some production fuel left. Let's create a new carrier.
 
 Click "Pop System", then click "New carrier" below "Carrier:" and the number.
+
+![player info pop system new carrier](./images/player-info-pop-system-new-carrier.png)
+
+Click "Build carrier" and "Confirm". If you click the "Carrier:" select box, you will now see "0" and "1".
+Carrier 1 is the carrier you just built, you can click "Carrier" to see that it is a spaceship.
+
+Similarly, build some factories, institutes and laboratories on carrier 1.
+You may want to increase the "New factory max. employee" for factories and "Max. employee" for institutes and 
+laboratories since the default value is quite small as you don't have much population at your new carrier.
