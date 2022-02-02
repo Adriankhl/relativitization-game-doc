@@ -144,6 +144,8 @@ about this if your z dimension = 3.
 
 From left to right: zoom-in, zoom-out, default-zoom.
 
+Recall that your can use your "+" and "-" keyboard button or your finger to zoom in/out.
+
 #### Universe history
 
 ![top bar universe history](./images/top-bar-universe-history.png)
@@ -591,6 +593,10 @@ Because you now have at least a spaceship, your player icon is different from th
 The player icon changes due to whether you have a stellar system, whether you have a spaceship, and whether you are a
 top leader.
 
+### Adjust salary for the new carrier.
+
+You may want to [adjust your salary](#adjust-salary) again.
+
 ### Create new player by splitting carriers
 
 Because a cube in the universe can only generate a limited amount of fuel, you may want to expand to other cubes, or
@@ -606,3 +612,16 @@ the new player. Then click "Split carrier". It will create a new player as your 
 You can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
 
 Go to [next turn](#next-turn) to see your new subordinate.
+
+### Subordinate in world map
+
+Click "Overview" or "Players" in [player information buttons]. [Zoom in](#zoom-buttons) the world map and click your
+player icon in "Overview" or "Players" to center the world map at your position.
+
+![world map subordinate different color](./images/world-map-subordinate-different-color.png)
+
+You will see a new player right next to your own player. Your icon changes back to the initial icon since you now have
+zero spaceship.
+
+You and your subordinates are in different colors, because your subordinate are fundamentally an independent player, 
+though it has certain restrictions being a subordinate.
