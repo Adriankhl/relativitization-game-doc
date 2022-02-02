@@ -192,8 +192,8 @@ is displayed or hidden.
 
 Display the status of the server.
 
-The button on the right lights up when newer view of the universe is available, click it to update the view and
-clear your stored commands in the plan.
+The button on the right lights up when newer view of the universe is available, click it to update the view and clear
+your stored commands in the plan.
 
 #### Server control
 
@@ -245,7 +245,7 @@ You can "Add" or "Remove" a specific computed command, or you can simply click "
 commands to your plan.
 
 Then you can click the [upload button](#upload-commands-button) to upload the commands in your plan to the server. The
-server may take a while to complete the computation, then the 
+server may take a while to complete the computation, then the
 [button in server information](#server-information) will light up, and you can click it to enter the next turn.
 
 Once again, you can use the "DefaultAI" to make the decision.
@@ -531,24 +531,22 @@ the [knowledge map control buttons](#knowledge-map-control-buttons).
 #### Institute
 
 Click on a transparent book. Then go back to "Pop System"
-You can see that the "New institute knowledge x" and "New institute knowledge y" have changed.
-Click "Build institute" and "Confirm".
-Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
+You can see that the "New institute knowledge x" and "New institute knowledge y" have changed. Click "Build institute"
+and "Confirm". Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
 the [knowledge map control buttons](#knowledge-map-control-buttons).
 
 ![player info knowledge map project institute](./images/player-info-knowledge-map-project-map-institute.png)
 
-The institute should be located on top of the position you selected.
-If you decrease the icon size, you can see a small circle around the institute. It is the range where the institute
-will be responsible to research.
+The institute should be located on top of the position you selected. If you decrease the icon size, you can see a small
+circle around the institute. It is the range where the institute will be responsible to research.
 
 #### Laboratory
 
 Now do the same thing for laboratory.
 
-Click on a transparent wrench. Go to "Pop System".
-Select "Engineer" under "Pop:", this time increase the "New laboratory knowledge range" to 2.5 (just click the "+").
-Click "Build laboratory" and "Confirm". You should see a laboratory with a much bigger white circle.
+Click on a transparent wrench. Go to "Pop System". Select "Engineer" under "Pop:", this time increase the "New
+laboratory knowledge range" to 2.5 (just click the "+"). Click "Build laboratory" and "Confirm". You should see a
+laboratory with a much bigger white circle.
 
 ![player info knowledge map project institute laboratory](./images/player-info-knowledge-map-project-map-institute-laboratory.png)
 
@@ -557,8 +555,8 @@ Click "Build laboratory" and "Confirm". You should see a laboratory with a much 
 A larger range institute/laboratory cover a larger research space, but the average strength is lower.
 
 Build more institute and laboratory wherever you like. 5+ institutes and 5+ laboratories with the default
-"Max. employee" avoid scholar and engineer to be unemployed.
-In the future, when you started to produce "Research equipment", you can also increase the "Max. equipment consumption"
+"Max. employee" avoid scholar and engineer to be unemployed. In the future, when you started to produce "Research
+equipment", you can also increase the "Max. equipment consumption"
 to speed up your research.
 
 ### New carrier
@@ -569,20 +567,20 @@ Click "Pop System", then click "New carrier" below "Carrier:" and the number.
 
 ![player info pop system new carrier](./images/player-info-pop-system-new-carrier.png)
 
-Click "Build carrier" and "Confirm". If you click the "Carrier:" select box, you will now see "0" and "1".
-Carrier 1 is the carrier you just built, you can click "Carrier" to see that it is a spaceship.
+Click "Build carrier" and "Confirm". If you click the "Carrier:" select box, you will now see "0" and "1". Carrier 1 is
+the carrier you just built, you can click "Carrier" to see that it is a spaceship.
 
-Similarly, build some factories, institutes and laboratories on carrier 1.
-You may want to increase the "New factory max. employee" for factories and "Max. employee" for institutes and 
-laboratories since the default value is quite small as you don't have much population at your new carrier.
+Similarly, build some factories, institutes and laboratories on carrier 1. You may want to increase the "New factory
+max. employee" for factories and "Max. employee" for institutes and laboratories since the default value is quite small
+as you don't have much population at your new carrier.
 
 ### Next turn
 
 It is a good time to go to next turn. Remember what you have done (e.g., built factories, new carrier) is just your
 plan, you have to upload the commands in your plan to the universe in the server. Click
 [upload commands button](#upload-commands-button) to upload your commands, the button will turn green when the upload
-has succeeded. You should see the [button in server information](#server-information) lights up, click it to get
-the data for the next turn.
+has succeeded. You should see the [button in server information](#server-information) lights up, click it to get the
+data for the next turn.
 
 ### Player icon
 
@@ -590,14 +588,21 @@ Because you now have at least a spaceship, your player icon is different from th
 
 ![player icon top leader stellar and spaceship](./images/player-icon-top-leader-stellar-and-spaceship.png)
 
-The player icon changes due to whether you have a stellar system, whether you have a spaceship, and whether
-you are a top leader.
+The player icon changes due to whether you have a stellar system, whether you have a spaceship, and whether you are a
+top leader.
 
 ### Create new player by splitting carriers
 
 Because a cube in the universe can only generate a limited amount of fuel, you may want to expand to other cubes, or
-even fight with other players.
-Remember that you have a stellar system, which is impractical to move. You have to create a new player consisting
-only of spaceship to move to other places.
+even fight with other players. Remember that you have a stellar system, which is impractical to move. You have to create
+a new player, as your direct subordinate consisting only of spaceship to move to other places.
 
 Click "Pop System", then click "New player" under "Carrier:" and the number.
+
+![player info pop system new player](./images/player-info-pop-system-new-player.png)
+
+Select "1" under "Carrier:", and click "Add". Be careful not to add carrier 0, it will gift your main stellar system to
+the new player. Then click "Split carrier". It will create a new player as your direct subordinate in the next turn.
+You can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
+
+Go to [next turn](#next-turn) to see your new subordinate.
