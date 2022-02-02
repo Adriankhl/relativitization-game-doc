@@ -428,11 +428,15 @@ select other pop type under "Pop:" to change their salary as well.
 
 #### Option 2: DefaultSalaryAI
 
-Adjusting salary can be tedious if you have many carriers, so the game provide a "DefaultSalaryAI" to automate this.
+Adjusting salary every turn can be tedious if you have many carriers, so the game provide a "DefaultSalaryAI" to
+automate this.
 
 Similar to how you do with the [default AI](#let-ai-do-everything), click "AI" in the
 [player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "DefaultAI", click "
 Compute" and "Use all" to put all the commands in your plan.
+
+Note that "Use all" will remove the commands in your plan and add the ones computed by the AI. Do this at the beginning
+of your turn.
 
 ### Factories
 
@@ -578,7 +582,10 @@ as you don't have much population at your new carrier.
 
 ### Next turn
 
-It is a good time to go to next turn. Remember what you have done (e.g., built factories, new carrier) is just your
+Before going to next turn, you may click "Commands" in [player information buttons](#player-information-buttons)
+to review the commands you have created.
+
+Remember what you have done (e.g., built factories, new carrier) is just your
 plan, you have to upload the commands in your plan to the universe in the server. Click
 [upload commands button](#upload-commands-button) to upload your commands, the button will turn green when the upload
 has succeeded. You should see the [button in server information](#server-information) lights up, click it to get the
@@ -608,8 +615,8 @@ Click "Pop System", then click "New player" under "Carrier:" and the number.
 ![player info pop system new player](./images/player-info-pop-system-new-player.png)
 
 Select "1" under "Carrier:", and click "Add". Be careful not to add carrier 0, it will gift your main stellar system to
-the new player. Then click "Split carrier". It will create a new player as your direct subordinate in the next turn.
-You can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
+the new player. Then click "Split carrier". It will create a new player as your direct subordinate in the next turn. You
+can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
 
 Go to [next turn](#next-turn) to see your new subordinate.
 
@@ -623,5 +630,5 @@ player icon in "Overview" or "Players" to center the world map at your position.
 You will see a new player right next to your own player. Your icon changes back to the initial icon since you now have
 zero spaceship.
 
-You and your subordinates are in different colors, because your subordinate are fundamentally an independent player, 
+You and your subordinates are in different colors, because your subordinate are fundamentally an independent player,
 though it has certain restrictions being a subordinate.
