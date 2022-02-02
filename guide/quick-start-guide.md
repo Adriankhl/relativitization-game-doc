@@ -552,7 +552,7 @@ Click "Build laboratory" and "Confirm". You should see a laboratory with a much 
 
 ![player info knowledge map project institute laboratory](./images/player-info-knowledge-map-project-map-institute-laboratory.png)
 
-#### Build more
+#### Build more institutes and laboratories
 
 A larger range institute/laboratory cover a larger research space, but the average strength is lower.
 
@@ -560,3 +560,9 @@ Build more institute and laboratory wherever you like. 5+ institutes and 5+ labo
 "Max. employee" avoid scholar and engineer to be unemployed.
 In the future, when you started to produce "Research equipment", you can also increase the "Max. equipment consumption"
 to speed up your research.
+
+### New carrier
+
+You still have some production fuel. Let's create a new carrier.
+
+Click "Pop System", then click "New carrier" below "Carrier:" and the number.
