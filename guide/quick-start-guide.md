@@ -585,8 +585,8 @@ as you don't have much population at your new carrier.
 Before going to next turn, you may click "Commands" in [player information buttons](#player-information-buttons)
 to review the commands you have created.
 
-Remember what you have done (e.g., built factories, new carrier) is just your
-plan, you have to upload the commands in your plan to the universe in the server. Click
+Remember what you have done (e.g., built factories, new carrier) is just your plan, you have to upload the commands in
+your plan to the universe in the server. Click
 [upload commands button](#upload-commands-button) to upload your commands, the button will turn green when the upload
 has succeeded. You should see the [button in server information](#server-information) lights up, click it to get the
 data for the next turn.
@@ -622,18 +622,20 @@ Go to [next turn](#next-turn) to see your new subordinate.
 
 ### Subordinate in world map
 
-Click "Overview" or "Players" in [player information buttons]. [Zoom in](#zoom-buttons) the world map and click your
-player icon in "Overview" or "Players" to center the world map at your position.
+Click "Players" in [player information buttons]. [Zoom in](#zoom-buttons) the world map and click your player icon in "
+Players" to center the world map at your position.
 
 ![world map subordinate different color](./images/world-map-subordinate-different-color.png)
 
 You will see a new player right next to your own player. Your icon changes back to the initial icon since you now have
-zero spaceship.
+no spaceship.
 
-You and your subordinates are in different colors, because your subordinate are fundamentally an independent player,
+In the player information, you can also see player 51 is now your subordinate.
+
+You and your subordinates are in different colors, because your subordinate is fundamentally an independent player,
 though it has certain restrictions being a subordinate.
 
-To visualize your subordinates. Click "Map Mode" in [player information buttons](#player-information-buttons). 
-Then select "Top leader" in "Map color mode".
+To display all player under the same top leader as the same color. Click "Map Mode"
+in [player information buttons](#player-information-buttons). Then select "Top leader" in "Map color mode".
 
 ![world map player info map mode top leader](./images/world-map-player-info-map-mode-top-leader.png)
