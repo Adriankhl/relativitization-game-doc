@@ -645,4 +645,8 @@ in [player information buttons](#player-information-buttons). Then select "Top l
 One of the advantage of being a leader of other players is that the leader can get a fraction of tax collected by
 subordinates.
 
-Click "Economy" in [player information buttons](#player-information-buttons), then click "Tax info".
+Click "Economy" in [player information buttons](#player-information-buttons), then click "Tax info", scroll down to
+"Income tax".
+
+![player info economy income tax](./images/player-info-economy-income-tax.png)
+![player info economy income tax boundary](./images/player-info-economy-income-tax-boundary.png)
