@@ -583,3 +583,7 @@ plan, you have to upload the commands in your plan to the universe in the server
 [upload commands button](#upload-commands-button) to upload your commands, the button will turn green when the upload
 has succeeded. You should see the [button in server information](#server-information) lights up, click it to get
 the data for the next turn.
+
+### Player icon
+
+Because you now have at least a spaceship, your player icon is different from that at the beginning.
