@@ -124,7 +124,7 @@ earlier the time it is.
 A non-empty cube contains players. Depending on the map mode, whether the player has stellar system or spaceship, and
 whether the player is a top-level independent leader, players many look differently on the world map. You can click the
 player to select it as the primary selected player, surrounded by green circle. If you already have a primary selected
-player, Selecting other players create a red circle around the player. You can click the player again to unselect it.
+player, selecting other players create a red circle around the player. You can click the player again to unselect it.
 
 ### Top bar
 
@@ -622,7 +622,7 @@ Go to [next turn](#next-turn) to see your new subordinate.
 
 ### Subordinate in world map
 
-Click "Players" in [player information buttons]. [Zoom in](#zoom-buttons) the world map and click your player icon in "
+Click "Players" in [player information buttons](#player-information-buttons) . [Zoom in](#zoom-buttons) the world map and click your player icon in "
 Players" to center the world map at your position.
 
 ![world map subordinate different color](./images/world-map-subordinate-different-color.png)
@@ -639,3 +639,10 @@ To display all player under the same top leader as the same color. Click "Map Mo
 in [player information buttons](#player-information-buttons). Then select "Top leader" in "Map color mode".
 
 ![world map player info map mode top leader](./images/world-map-player-info-map-mode-top-leader.png)
+
+### Income tax
+
+One of the advantage of being a leader of other players is that the leader can get a fraction of tax collected by
+subordinates.
+
+Click "Economy" in [player information buttons](#player-information-buttons), then click "Tax info".
