@@ -632,3 +632,8 @@ zero spaceship.
 
 You and your subordinates are in different colors, because your subordinate are fundamentally an independent player,
 though it has certain restrictions being a subordinate.
+
+To visualize your subordinates. Click "Map Mode" in [player information buttons](#player-information-buttons). 
+Then select "Top leader" in "Map color mode".
+
+![world map player info map mode top leader](./images/world-map-player-info-map-mode-top-leader.png)
