@@ -592,3 +592,12 @@ Because you now have at least a spaceship, your player icon is different from th
 
 The player icon changes due to whether you have a stellar system, whether you have a spaceship, and whether
 you are a top leader.
+
+### Create new player by splitting carriers
+
+Because a cube in the universe can only generate a limited amount of fuel, you may want to expand to other cubes, or
+even fight with other players.
+Remember that you have a stellar system, which is impractical to move. You have to create a new player consisting
+only of spaceship to move to other places.
+
+Click "Pop System", then click "New player" under "Carrier:" and the number.
