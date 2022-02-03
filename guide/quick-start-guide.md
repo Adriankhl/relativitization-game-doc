@@ -63,7 +63,11 @@ consider to tune:
   interpret the visualization of a universe with high z dimension in this game
 
 The ideal size of the universe depends on the spec of your PC. A reasonable suggestion is (x dimension = 10, y dimension
-= 10, z dimension = 3).
+= 10, z dimension = 3), or try (x dimension = 6, y dimension = 6, z dimension = 3) for a smaller map.
+
+Typically, depending on the size of the map, there is a minimum "Universe t dimension" required. Before you reduce the
+size of the map, you can pick a small value for "Universe t dimension" (e.g., 1), then changing the spatial dimension
+will automatically pick the smallest possible "Universe t dimension" for you.
 
 Next, you can click the "Generate" button, it may take a while to generate the universe.
 
@@ -622,7 +626,8 @@ Go to [next turn](#next-turn) to see your new subordinate.
 
 ### Subordinate in world map
 
-Click "Players" in [player information buttons](#player-information-buttons) . [Zoom in](#zoom-buttons) the world map and click your player icon in "
+Click "Players" in [player information buttons](#player-information-buttons) . [Zoom in](#zoom-buttons) the world map
+and click your player icon in "
 Players" to center the world map at your position.
 
 ![world map subordinate different color](./images/world-map-subordinate-different-color.png)
@@ -650,3 +655,11 @@ Click "Economy" in [player information buttons](#player-information-buttons), th
 
 ![player info economy income tax](./images/player-info-economy-income-tax.png)
 ![player info economy income tax boundary](./images/player-info-economy-income-tax-boundary.png)
+
+Income tax is paid when pop receives salary. Depending on whether the salary is lower than or higher than
+"low-middle boundary" and "middle-high boundary", the pop pays "low income tax", "middle income tax", or "high income
+tax". Having a high income tax allow you to have more fuel as the leader, but it prohibits the growth of your
+subordinates. Furthermore, sending collected tax from subordinate to leader subject to a logistic loss depending on the
+distance between the players.
+
+Determine your income tax and the boundary, create the commands and "Confirm".
