@@ -699,3 +699,15 @@ given the time delay. Typically, "Move to location" is simpler to use.
 
 #### Execute warning
 
+Select one of the other players/cubes on the world map. Click "Move to location" and "Confirm".
+A strange "ExecuteWarningCommand" will appear on [command information](#command-information).
+
+![command info execute warning](./images/command-info-execute-warning.png)
+
+Here is the reason. Recall that you essentially add a command in your plan here, and the command is executed on the
+target player in your plan, the execution fails, and the warning is shown. If you ignore the warning, your command will
+still be sent after you upload all your commands to the game universe. The command will take some turns to reach the
+target, things may happen during the time and your command may still get executed in the future.
+
+However, it is not recommended ignoring the warning unless you know what you are doing.
+
