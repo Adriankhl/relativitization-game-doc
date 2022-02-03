@@ -737,3 +737,18 @@ An event of a player has one or more options, stays on a player for a certain nu
 based on the selected option or a default option if none is selected.
 
 Select your subordinate, and click "Events" in the [player information buttons](#player-information-buttons).
+
+![event info movement](./images/event-info-movement.png)
+
+It displays the event name, the maximum stay time of the event, the counter of current stay time, a description
+of the event, the choices of the event, and the selected choice ("default" means unselected).
+
+A "MoveToDouble3DEvent" will compute the appropriate "Change velocity" command to the player until the player
+reaches the location. The negative of this event is that it prevents fuel production and disable receiving fuel from
+other player, because increasing the fuel means the rest mass of the player also increases, making it impossible to
+compute the appropriate velocity to change to.
+
+Your subordinate (not you) can select choice "0" to keep the event or choice "1" to cancel it, there is nothing you
+can do to about it directly (it may be helpful to increase the relation with the player though).
+
+Wait a few turns, you will see your subordinate fly to the location you asked the player to.
