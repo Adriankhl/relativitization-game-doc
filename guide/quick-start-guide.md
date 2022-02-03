@@ -664,8 +664,27 @@ distance between the players.
 
 Determine your income tax and the boundary, create the commands and "Confirm".
 
+### Select your subordinate as primary selected player
+
+Ensure that you have unselected all players. You can use the [Clear all selected player button](#command-plan-buttons),
+or press the "Esc" key of your keyboard, or manual click all the players on the world map with
+[green/red circles](#world-map). Then select your subordinate as the primary player, you can do so by clicking the icon
+on the [world map](#world-map), or you can select it in the "Direct subordinate id:" select box in
+["Players" information](#your-hierarchy-and-summary).
+
 ### Options to move your subordinate
 
 The most important interaction between you and your subordinate is to ask your subordinate to move to some other places.
 
-Click "Physics" in [player information buttons](#player-information-buttons).
+Click "Physics" in [player information buttons](#player-information-buttons). There is a bunch of physics-related
+information, scroll down to see "Movement commands:"
+
+![player info physics movement](./images/player-info-physics-movement.png)
+
+There are two major ways to ask your subordinate to move:
+
+* Ask the player to change to a specific velocity. 
+* Ask the player to move to a specific location.
+
+Select one of the other players/cubes on the world map, you will see the target coordinates change to the selected 
+location, and the target velocity points to the location with a magnitude equal to "Max speed:".
