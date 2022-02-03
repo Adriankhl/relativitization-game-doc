@@ -482,8 +482,9 @@ as input after you created the factory.
 
 #### Fuel factory
 
-There is some production fuel left. You should use this to build a fuel factory. Click "Build fuel factory" and "
-Confirm".
+Although you have a base production of fuel from your stellar system, it is always good to have more. Let's build a fuel
+factory. Click "Build fuel factory" and "Confirm". You can now see the information of the fuel factory under 
+"Factories".
 
 ![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
 
@@ -683,8 +684,8 @@ information, scroll down to see "Movement commands:"
 
 There are two major ways to ask your subordinate to move:
 
-* Ask the player to change to a specific velocity. 
+* Ask the player to change to a specific velocity.
 * Ask the player to move to a specific location.
 
-Select one of the other players/cubes on the world map, you will see the target coordinates change to the selected 
+Select one of the other players/cubes on the world map, you will see the target coordinates change to the selected
 location, and the target velocity points to the location with a magnitude equal to "Max speed:".
