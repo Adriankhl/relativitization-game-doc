@@ -663,3 +663,9 @@ subordinates. Furthermore, sending collected tax from subordinate to leader subj
 distance between the players.
 
 Determine your income tax and the boundary, create the commands and "Confirm".
+
+### Options to move your subordinate
+
+The most important interaction between you and your subordinate is to ask your subordinate to move to some other places.
+
+Click "Physics" in [player information buttons](#player-information-buttons).
