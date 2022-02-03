@@ -459,13 +459,17 @@ with the reason "Not enough fuel rest mass".
 
 To fix this, you need to send your fuel from storage to production. Typically, the game will manage the fuel
 distribution for you based on your preset proportion, but the fuel is all located at the "storage" category in your
-first turn to give you more control. Let's click "Economy" in [player information buttons](#player-information-buttons).
+first turn to give you more control. To enforce a redistribution of fuel, you have to send fuel to yourself.
+
+#### Send fuel
+
+Click "Economy" in [player information buttons](#player-information-buttons).
 
 ![player info economy initial fuel](./images/player-info-economy-initial-fuel.png)
 
-It shows your current fuel and your default fuel proportion. To manually trigger the fuel distribution, slide the slider
-under "Send fuel to this player" to max (right), then click "Send fuel to this player" and click "Confirm" in
-the [command information](#command-information). You will see your "production" fuel is now 5.0E8.
+It shows your current fuel and your default fuel proportion. Slide the slider under "Send fuel to this player" to max (
+right), then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
+You will see your "production" fuel is now 5.0E8.
 
 #### Resource factories
 
@@ -483,7 +487,7 @@ as input after you created the factory.
 #### Fuel factory
 
 Although you have a base production of fuel from your stellar system, it is always good to have more. Let's build a fuel
-factory. Click "Build fuel factory" and "Confirm". You can now see the information of the fuel factory under 
+factory. Click "Build fuel factory" and "Confirm". You can now see the information of the fuel factory under
 "Factories".
 
 ![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
@@ -699,8 +703,8 @@ given the time delay. Typically, "Move to location" is simpler to use.
 
 #### Execute warning
 
-Select one of the other players/cubes on the world map. Click "Move to location" and "Confirm".
-A strange "ExecuteWarningCommand" will appear on [command information](#command-information).
+Select one of the other players/cubes on the world map. Click "Move to location" and "Confirm". A strange "
+ExecuteWarningCommand" will appear on [command information](#command-information).
 
 ![command info execute warning](./images/command-info-execute-warning.png)
 
@@ -711,3 +715,25 @@ target, things may happen during the time and your command may still get execute
 
 However, it is not recommended ignoring the warning unless you know what you are doing.
 
+#### Movement to location command
+
+The warning tells you that your subordinate does not have enough fuel. You can either:
+
+* Send fuel to your subordinate, you select your subordinate as the primary selected player and 
+[send fuel to the player](#send-fuel).
+* The default "Max. speed" is 0.5, you can decrease it, a lower "Max. speed" movement requires less fuel
+
+Probably you should reserve your fuel for something else, let's reduce the "Max. speed" to ~0.1, click 
+"Move to location" and "Confirm".
+
+![command info add movment event](./images/command-info-add-movement-event.png)
+
+Instead of a regular command, this command add a "MoveToDouble3DEvent" to your subordinate, as you can see in
+[command information](#command-information).
+
+#### Event
+
+An event of a player has one or more options, stays on a player for a certain number of turns, and generate commands
+based on the selected option or a default option if none is selected.
+
+Select your subordinate, and click "Events" in the [player information buttons](#player-information-buttons).
