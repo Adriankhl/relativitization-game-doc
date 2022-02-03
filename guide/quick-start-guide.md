@@ -5,6 +5,7 @@
 3. [Game UI](#game-ui)
 4. [Let AI do everything](#let-ai-do-everything)
 5. [Play the game yourself](#play-the-game-yourself)
+6. [Things you can do](#things-you-can-do)
 
 ## Core idea
 
@@ -205,7 +206,13 @@ your stored commands in the plan.
 
 ![top bar server control](./images/top-bar-server-control.png)
 
-Ask server to stop waiting, or ask server to stop running. You can ignore it for single-player games.
+Server stop waiting (admin):
+
+* No: always wait for all human input
+* After input: only wait for your input
+* Always: Don't wait, the AI will compute the input for you
+
+Sop server (admin): completely stop the server from running and stop getting input from human.
 
 #### Upload commands button
 
@@ -719,11 +726,11 @@ However, it is not recommended ignoring the warning unless you know what you are
 
 The warning tells you that your subordinate does not have enough fuel. You can either:
 
-* Send fuel to your subordinate, you select your subordinate as the primary selected player and 
-[send fuel to the player](#send-fuel).
+* Send fuel to your subordinate, you select your subordinate as the primary selected player and
+  [send fuel to the player](#send-fuel).
 * The default "Max. speed" is 0.5, you can decrease it, a lower "Max. speed" movement requires less fuel
 
-Probably you should reserve your fuel for something else, let's reduce the "Max. speed" to ~0.1, click 
+Probably you should reserve your fuel for something else, let's reduce the "Max. speed" to ~0.1, click
 "Move to location" and "Confirm".
 
 ![command info add movment event](./images/command-info-add-movement-event.png)
@@ -740,15 +747,32 @@ Select your subordinate, and click "Events" in the [player information buttons](
 
 ![event info movement](./images/event-info-movement.png)
 
-It displays the event name, the maximum stay time of the event, the counter of current stay time, a description
-of the event, the choices of the event, and the selected choice ("default" means unselected).
+It displays the event name, the maximum stay time of the event, the counter of current stay time, a description of the
+event, the choices of the event, and the selected choice ("default" means unselected).
 
-A "MoveToDouble3DEvent" will compute the appropriate "Change velocity" command to the player until the player
-reaches the location. The negative of this event is that it prevents fuel production and disable receiving fuel from
-other player, because increasing the fuel means the rest mass of the player also increases, making it impossible to
-compute the appropriate velocity to change to.
+A "MoveToDouble3DEvent" will compute the appropriate "Change velocity" command to the player until the player reaches
+the location. The negative of this event is that it prevents fuel production and disable receiving fuel from other
+player, because increasing the fuel means the rest mass of the player also increases, making it impossible to compute
+the appropriate velocity to change to.
 
-Your subordinate (not you) can select choice "0" to keep the event or choice "1" to cancel it, there is nothing you
-can do to about it directly (it may be helpful to increase the relation with the player though).
+Your subordinate (not you) can select choice "0" to keep the event or choice "1" to cancel it, there is nothing you can
+do to about it directly (it may be helpful to increase the relation with the player though).
 
 Wait a few turns, you will see your subordinate fly to the location you asked the player to.
+
+## Things you can do
+
+Now you should understand the basic of the game. You should be able to build up your population, your research,
+your carriers, and your subordinates.
+
+You can explore how the politics, economy, and diplomacy works, declare war on other players, move your subordinate
+to cubes where your enemies are located at to fight, prepare for rebellions...There will be guides for these topics
+when these features become more polished.
+
+Or if you are impatient, you can choose "Always" in [Server stop waiting (admin):](#server-control)
+to compute all the things automatically.
+
+### Contributing!
+
+I should admit that it is not an easy task to design interesting mechanics in such an unconventional game. Feel free to
+open an issue to make your suggestion, or even create a pull request if you know how to code.
