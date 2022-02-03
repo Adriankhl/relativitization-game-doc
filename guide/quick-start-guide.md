@@ -689,3 +689,13 @@ There are two major ways to ask your subordinate to move:
 
 Select one of the other players/cubes on the world map, you will see the target coordinates change to the selected
 location, and the target velocity points to the location with a magnitude equal to "Max speed:".
+
+After receiving "Change velocity" command, if the player cannot change to the target velocity, due to a limitation of
+fuel or a limitation of power, it will try to change to the closet velocity at that direction. If that is not possible,
+it will decelerate.
+
+Since "Change velocity" is a one-off command, tt would be quite difficult to control the target by "Change velocity"
+given the time delay. Typically, "Move to location" is simpler to use.
+
+#### Execute warning
+
