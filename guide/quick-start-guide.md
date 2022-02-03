@@ -595,7 +595,7 @@ data for the next turn.
 
 Because you now have at least a spaceship, your player icon is different from that at the beginning.
 
-![player icon top leader stellar and spaceship](./images/player-icon-top-leader-stellar-and-spaceship.png)
+![player info overview icon top leader stellar and spaceship](./images/player-info-overview-icon-top-leader-stellar-and-spaceship.png)
 
 The player icon changes due to whether you have a stellar system, whether you have a spaceship, and whether you are a
 top leader.
