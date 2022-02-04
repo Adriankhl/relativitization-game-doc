@@ -750,6 +750,9 @@ Select your subordinate, and click "Events" in the [player information buttons](
 It displays the event name, the maximum stay time of the event, the counter of current stay time, a description of the
 event, the choices of the event, and the selected choice ("default" means unselected).
 
+The "default" choice means differently for different events, and it may depend on the situation of the player. In the
+case of "MoveToDouble3DEvent", the player will move to the location unless there are other movement events.
+
 A "MoveToDouble3DEvent" will compute the appropriate "Change velocity" command to the player until the player reaches
 the location. The negative of this event is that it prevents fuel production and disable receiving fuel from other
 player, because increasing the fuel means the rest mass of the player also increases, making it impossible to compute
