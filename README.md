@@ -16,6 +16,7 @@ if you want to experiment your ideas in a FOSS game, you should try this out.
 
 1. [Quick start guide](guide/quick-start-guide.md)
 2. [Feature plan](plan/feature-plan.md)
+3. [Frequently asked questions](faq/frequently-asked-questions.md)
 
 ## Contribute
 
