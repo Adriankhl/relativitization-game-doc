@@ -758,21 +758,28 @@ the appropriate velocity to change to.
 Your subordinate (not you) can select choice "0" to keep the event or choice "1" to cancel it, there is nothing you can
 do to about it directly (it may be helpful to increase the relation with the player though).
 
-Wait a few turns, you will see your subordinate fly to the location you asked the player to.
+Wait for a few turns, you will see your subordinate fly to the location you asked the player to.
 
 ## Things you can do
 
-Now you should understand the basic of the game. You should be able to build up your population, your research,
-your carriers, and your subordinates.
+Now you should understand the basic of the game. You should be able to build up your population, your research, your
+carriers, and your subordinates.
 
-You can explore how the politics, economy, and diplomacy works, declare war on other players, move your subordinate
-to cubes where your enemies are located at to fight, prepare for rebellions...There will be guides for these topics
-when these features become more polished.
+You can explore how the politics, economy, and diplomacy works, declare war on other players, move your subordinate to
+cubes where your enemies are located at to fight, prepare for rebellions... As long as you do not gift away your stellar
+system, your player will not die. The worst thing that can happen is you may lose or surrender in a war to become
+someone's subordinate, but you can always find a chance to declare independence to your direct leader or top leader to
+get back your freedom.
 
 Or if you are impatient, you can choose "Always" in [Server stop waiting (admin):](#server-control)
-to compute all the things automatically.
+to get the universe going automatically. Simply [update the universe](#server-information) and enjoy watching the
+societal evolution. Turn [Server stop waiting (admin):](#server-control) to "No" if you want to control the player
+again.
 
 ### Contributing!
 
-I should admit that it is not an easy task to design interesting mechanics in such an unconventional game. Feel free to
-open an issue to make your suggestion, or even create a pull request if you know how to code.
+It is not an easy task to design interesting mechanics in such an unconventional game. Feel free to open an issue to
+make your suggestion.
+
+The source code of the game is quite modular, so it should be relatively easy to implement your alternative mechanics.
+Consider creating pull request to the project, and let's think about the best way to support modding in this game!
