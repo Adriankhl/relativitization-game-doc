@@ -761,7 +761,22 @@ the appropriate velocity to change to.
 Your subordinate (not you) can select choice "0" to keep the event or choice "1" to cancel it, there is nothing you can
 do to about it directly (it may be helpful to increase the relation with the player though).
 
-Wait for a few turns, you will see your subordinate fly to the location you asked the player to.
+Wait for a few turns, you will see your subordinate moving to the location you asked the player to.
+
+#### Time dilation
+
+Recall that [time is dilated when velocity is not zero](#core-idea), when your subordinate start moving, select your
+subordinate and click "Physics".
+
+![player info physics time dilation](./images/player-info-physics-time-dilation.png)
+
+"Gamma" is the relativistic factor, and "Gamma inverse" is the dilated time experienced by the player. It is less than
+1.0, which means the time experienced by the player is less the time experienced by a stationary player (more precisely, 
+stationary relative to the inertial frame where the computation is done).
+
+The dilated time is added into the "dilated time residue", if it is greater than one, then things happen normally,
+else the time dilation prevent some mechanism from happening. The "Is next dilation action turn: false" indicates,
+that time-dilated mechanism will not happen in the next turn for that player.
 
 ## Things you can do
 
