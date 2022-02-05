@@ -1,6 +1,6 @@
 # Relativitization game documentation
 
-Everything about the [Relativitization](https://github.com/Adriankhl/relativitization) game.
+Everything about the [Relativitization](https://adriankhl.itch.io/relativitization) game.
 
 ## Is this a game for you?
 
@@ -18,6 +18,12 @@ out.
 1. [Quick start guide](guide/quick-start-guide.md)
 2. [Feature plan](plan/feature-plan.md)
 3. [Frequently asked questions](faq/frequently-asked-questions.md)
+
+## Links
+
+* [Source code](https://github.com/Adriankhl/relativitization)
+* [Itch.io](https://adriankhl.itch.io/relativitization)
+* [Reddit](https://www.reddit.com/r/relativitization/)
 
 ## Contribute
 
