@@ -9,8 +9,9 @@ This is a turn-based strategy / simulation game in 4D, relativistic spacetime.
 If you want fancy graphics and musics, this may not the right place. As a primarily one-man project, providing deep and
 interesting mechanics has a higher priority.
 
-If you are curious to see how will things happen in a physically more realistic universe which respects relativity, or
-if you want to experiment your ideas in a FOSS game, you should try this out.
+If you are curious to see how interstellar civilizations should make their strategic decisions in a universe under the
+Einstein's theory of special relativity, or if you want to experiment your ideas in a FOSS game, you should try this
+out.
 
 ## Table of contents
 
