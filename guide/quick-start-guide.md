@@ -3,9 +3,10 @@
 1. [Core idea](#core-idea)
 2. [Create new game](#create-new-game)
 3. [Game UI](#game-ui)
-4. [Let AI do everything](#let-ai-do-everything)
-5. [Play the game yourself](#play-the-game-yourself)
-6. [Things you can do](#things-you-can-do)
+4. [Load saved games](#load-saved-games)
+5. [Let AI do everything](#let-ai-do-everything)
+6. [Play the game yourself](#play-the-game-yourself)
+7. [Things you can do](#things-you-can-do)
 
 ## Core idea
 
@@ -245,9 +246,32 @@ of the command ("Do nothing").
 If you want to send this command, click "Confirm" to add the command to your plan. You can view your previous (or next,
 if any) confirmed commands by clicking the arrow, and you can "Cancel" your confirmed commands.
 
+## Load saved games
+
+### Auto-save
+
+The game saves the universe right after the universe generation, and auto-save is performed at the beginning of each
+turn. You can find the saved files in the `saves` directory where your game is located.
+
+### Quit the game
+
+To quit the game, you can directly close the window, or you can use the "Quit game" button
+in [settings](#settings-and-help-buttons).
+
+### Load universe
+
+Open the game, and click "Load Universe" in the [main manu](#main-menu).
+
+![load universe](./images/load-universe.png)
+
+You will see a list of saved universe. Select the universe you want to load and click "Load" to enter
+the [server settings](#server-settings) screen.
+
 ## Let AI do everything
 
-In Relativitization, you see what would an AI do in your situation, and you can rely completely on that.
+You can completely rely on AI to play this game.
+
+Firstly, open the game and create a new universe.
 
 Click "AI" in your top bar. Select the "DefaultAI", and click "Compute"
 to get a list of commands computed by the AI.
@@ -263,19 +287,11 @@ server may take a while to complete the computation, then the
 
 Once again, you can use the "DefaultAI" to make the decision.
 
-### Quit the game
-
-The game performs auto save at the beginning of each turn. You can find the saved files in the `saves` directory where
-your game is located.
-
-To quit the game, you can directly close it, or you can use the "Quit game" button
-in [settings](#settings-and-help-buttons).
-
 ## Play the game yourself
 
-Instead of relying completely on the AI, you may want to play the game yourself.
+Instead of relying completely on the default AI, you may want to play the game yourself.
 
-Now close the game and start a new universe. You may consider setting the human wait time limit in the
+Now close the game and start a new universe. You may consider setting the human wait time limit in
 [server settings](#server-settings) to a high value, e.g., 10000000000.
 
 ### Basic concepts
@@ -771,12 +787,12 @@ subordinate and click "Physics".
 ![player info physics time dilation](./images/player-info-physics-time-dilation.png)
 
 "Gamma" is the relativistic factor, and "Gamma inverse" is the dilated time experienced by the player. It is less than
-1.0, which means the time experienced by the player is less the time experienced by a stationary player (more precisely, 
+1.0, which means the time experienced by the player is less the time experienced by a stationary player (more precisely,
 stationary relative to the inertial frame where the computation is done).
 
-The dilated time is added into the "dilated time residue", if it is greater than one, then things happen normally,
-else the time dilation prevent some mechanism from happening. The "Is next dilation action turn: false" indicates,
-that time-dilated mechanism will not happen in the next turn for that player.
+The dilated time is added into the "dilated time residue", if it is greater than one, then things happen normally, else
+the time dilation prevent some mechanism from happening. The "Is next dilation action turn: false" indicates, that
+time-dilated mechanism will not happen in the next turn for that player.
 
 ## Things you can do
 
