@@ -4,6 +4,12 @@
 
 Yes, after it is more polished. At least I am planning to add Chinese translation for the game before Steam release.
 
+### Why the android apk is experimental?
+
+In principle, this game should work on android phones. However, due to the heavy computation, it might not be a pleasant
+experience to player this game on android. Optimization might be possible int the future to provide a smooth experience
+on android.
+
 ### Game crashes to desktop?
 
 Possible reasons:

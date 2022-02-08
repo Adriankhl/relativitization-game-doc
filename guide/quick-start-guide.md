@@ -12,15 +12,15 @@
 
 Though a computer game can never be fully realistic, a certain degree of realism makes a game more immersive and
 interesting. From our current knowledge in physics, our universe is governed by Einstein's theory of relativity.
-Particularly, to describe things happening within a scale of ~100 light years, we need special relativity. Roughly
-speaking, special relativity tells us that
+Particularly, to describe things at the scale of ~100 light years, we need special relativity. Roughly speaking, special
+relativity tells us that
 
 * Information travel is bounded by the speed of light
 * Time dilation: relative to an observer, the clock of a moving object ticks slower
 
 Having arbitrary faster-than-light technologies, which many other space games do, is forbidden by special relativity.
 
-In contrast, special relativity is the core mechanics in this turn-based game. As a consequence, you will see a few
+In contrast, special relativity plays a core role in this turn-based game. As a consequence, you will experience a few
 unconventional concepts:
 
 * typically, you observe the past state instead of the current state of other players
@@ -30,8 +30,7 @@ unconventional concepts:
 
 Due to the restriction of the speed of information travel, you cannot directly control your whole territory. Instead,
 you have a set of direct subordinates, and you can ask them to do things by sending commands. Your direct subordinates
-are also players, they may have their subordinates, and they have autonomy. You might also be a subordinate of other
-player.
+are also players with autonomy, they may have their subordinates. You might also be a subordinate of another player.
 
 The game is turn-based. In a turn, you make your decision to add some commands in your plan, then you send your commands
 out, note that commands may take several turns to reach the target. After that, you enter the next turn to get the new
@@ -54,17 +53,17 @@ To create a new game, click the "New Universe" button.
 
 ![new universe](./images/new-universe.png)
 
-The default settings will generate a universe and each player has one star initially. Here are the settings you should
+The default settings will generate a universe where each player has one initial star. Here are the settings you should
 consider to tune:
 
-* Total number of AI + human player: the initial number of player in the universe
+* Total number of AI + human player: the initial number of players in the universe
 * Universe name: use a new name for a new game to prevent overriding your other saved games
 * Universe x dimension: the universe has 3 spatial dimension (x, y, z), this determines the maximum of x
 * Universe y dimension: determine the maximum of y
-* Universe z dimension: determine the maximum of z, it is recommended to set this to a small value since it is harder to
-  interpret the visualization of a universe with high z dimension in this game
+* Universe z dimension: determine the maximum of z, it is recommended to set this to a small number since it is harder
+  to interpret the visualization of a universe with large universe z dimension
 
-The ideal size of the universe depends on the spec of your PC. A reasonable suggestion is (x dimension = 10, y dimension
+The ideal size of the universe depends on the specs of your PC. A reasonable suggestion is (x dimension = 10, y dimension
 = 10, z dimension = 3), or try (x dimension = 6, y dimension = 6, z dimension = 3) for a smaller map.
 
 Typically, depending on the size of the map, there is a minimum "Universe t dimension" required. Before you reduce the
