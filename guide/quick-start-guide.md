@@ -245,8 +245,12 @@ Whenever you create a command from [player information](#player-information), th
 the name of the command ("DummyCommand"), the universe time when the command is going to send ("Time: 0"), a description
 of the command ("Do nothing").
 
-If you want to send this command, click "Confirm" to add the command to your plan. You can view your previous (or next,
-if any) confirmed commands by clicking the arrow, and you can "Cancel" your confirmed commands.
+You may click "Confirm" to add the command to your plan, or click "Cancel" to cancel the command from your plan. Under
+the default settings, a newly-created command will be "Confirm" automatically, unless it is a special command such as "
+DummyCommand", "CannotSendCommand", or "ExecuteWarningCommand".
+
+You can view your previous (or next, if any) confirmed commands by clicking the arrow, and you can "Cancel" your
+confirmed commands.
 
 ## Load saved games
 
@@ -453,8 +457,7 @@ You can type in the "Target salary" text field to change your target. Alternativ
 , "+" buttons below. The slider change the coefficient of the number in scientific notation, the "-" button reduces the
 number by 10 times, and the "+" button increases the number by 10 times.
 
-Once you are done, click "Change salary" and click "Confirm" in the [command information](#command-information). You may
-select other pop type under "Pop:" to change their salary as well.
+Once you are done, click "Change salary". You may select other pop type under "Pop:" to change their salary as well.
 
 #### Option 2: DefaultSalaryAI
 
@@ -496,12 +499,11 @@ Click "Economy" in [player information buttons](#player-information-buttons).
 ![player info economy initial fuel](./images/player-info-economy-initial-fuel.png)
 
 It shows your current fuel and your default fuel proportion. Slide the slider under "Send fuel to this player" to max
-(right), then click "Send fuel to this player" and click "Confirm" in the [command information](#command-information).
-You will see your "production" fuel is now 5.0E8.
+(right), then click "Send fuel to this player". You will see your "production" fuel is now 5.0E8.
 
 #### Resource factories
 
-Now go back to "Pop System". Click "Build resource factory" and "Confirm". You should now see a plant factory under "
+Now go back to "Pop System". Click "Build resource factory". You should now see a plant factory under "
 Factories:".
 
 ![player info pop system plant factory](./images/player-info-pop-system-plant-factory.png)
@@ -517,7 +519,7 @@ some primary resources to produce the secondary resource.
 #### Fuel factory
 
 Although you have a base production of fuel from your stellar system, it is always good to have more. Let's build a fuel
-factory. Click "Build fuel factory" and "Confirm". You should be able to see the information of the fuel factory under
+factory. Click "Build fuel factory". You should be able to see the information of the fuel factory under
 "Factories".
 
 ![player info pop system fuel factory](./images/player-info-pop-system-fuel-factory.png)
@@ -578,8 +580,8 @@ the [knowledge map control buttons](#knowledge-map-control-buttons).
 #### Institute
 
 Click on a transparent book. Then go back to "Pop System"
-You can see that the "New institute knowledge x" and "New institute knowledge y" have changed. Click "Build institute"
-and "Confirm". Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
+You can see that the "New institute knowledge x" and "New institute knowledge y" have changed. Click "Build institute".
+Come back to "Knowledge Map" again, and check "Show institute/laboratory" under
 the [knowledge map control buttons](#knowledge-map-control-buttons).
 
 ![player info knowledge map project institute](./images/player-info-knowledge-map-project-map-institute.png)
@@ -592,8 +594,8 @@ circle around the institute. It is the range where the institute will be respons
 Now do the same thing for laboratory.
 
 Click on a transparent wrench. Go to "Pop System". Select "Engineer" under "Pop:", this time increase the "New
-laboratory knowledge range" to 2.5 (just click the "+"). Click "Build laboratory" and "Confirm". You should see a
-laboratory with a much bigger white circle.
+laboratory knowledge range" to 2.5 (just click the "+"). Click "Build laboratory". You should see a laboratory with a
+much bigger white circle.
 
 ![player info knowledge map project institute laboratory](./images/player-info-knowledge-map-project-map-institute-laboratory.png)
 
@@ -614,9 +616,9 @@ Click "Pop System", then click "New carrier" below the carrier number.
 
 ![player info pop system new carrier](./images/player-info-pop-system-new-carrier.png)
 
-Click "Build carrier" and "Confirm". If you click the "Carrier:" select box, you will now see "0" and "1". Carrier 1 is
-the carrier you just built, you can click "Carrier" to display the information of carrier 1. The "Carrier type" of
-carrier 1 should be "SPACESHIP".
+Click "Build carrier". If you click the "Carrier:" select box, you will now see "0" and "1". Carrier 1 is the carrier
+you just built, you can click "Carrier" to display the information of carrier 1. The "Carrier type" of carrier 1 should
+be "SPACESHIP".
 
 Similarly to what you did with your carrier 0, build some factories, institutes and laboratories on carrier 1. You may
 want to increase the "New factory max. employee" for factories and "Max. employee" for institutes and laboratories since
@@ -658,8 +660,8 @@ Click "Pop System", then click "New player" under the carrier number.
 ![player info pop system new player](./images/player-info-pop-system-new-player.png)
 
 Select "1" under "Carrier:", and click "Add". Be careful not to add carrier 0, it will gift your main stellar system to
-the new player. Then click "Split carrier" and "Confirm". It will create a new player as your direct subordinate in the
-next turn. You can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
+the new player. Then click "Split carrier". It will create a new player as your direct subordinate in the next turn. You
+can tune the initial fuel and resources of the new player as a "Storage fraction" of your storage.
 
 Go to [next turn](#next-turn) to see your new subordinate.
 
@@ -701,7 +703,7 @@ tax". Having a high income tax allows you to have more fuel as the leader, but i
 subordinates. Furthermore, sending collected tax from subordinate to leader subject to a logistic loss depending on the
 technology and the distance between the players.
 
-Decide your income tax and the boundary, create the commands and "Confirm".
+Decide your income tax and the boundary, create the commands.
 
 ### Select your subordinate as primary selected player
 
@@ -737,7 +739,7 @@ given the time delay. Typically, "Move to location" is simpler to use.
 
 #### Execute warning
 
-Select one of the other players/cubes on the world map. Click "Move to location" and "Confirm". A strange
+Select one of the other players/cubes on the world map. Click "Move to location". A strange
 "ExecuteWarningCommand" will appear on [command information](#command-information).
 
 ![command info execute warning](./images/command-info-execute-warning.png)
@@ -758,7 +760,7 @@ The warning tells you that your subordinate does not have enough fuel. You can e
 * The default "Max. speed" is 0.5, you can decrease it, a lower "Max. speed" movement requires less fuel
 
 Probably you should reserve your fuel for something else, let's reduce the "Max. speed" to ~0.1, click
-"Move to location" and "Confirm".
+"Move to location".
 
 ![command info add movment event](./images/command-info-add-movement-event.png)
 
