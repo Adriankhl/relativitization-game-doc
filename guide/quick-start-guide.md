@@ -70,7 +70,8 @@ Typically, depending on the size of the map, there is a minimum "Universe t dime
 size of the map, you can pick a small value for "Universe t dimension" (e.g., 1), then changing the spatial dimension
 will automatically pick the smallest possible "Universe t dimension" for you.
 
-Next, you can click the "Generate" button, it may take a while to generate the universe.
+After modifying the settings, you can click the "Generate" button, it may take a while to generate the universe.
+When the "Next" button lights up, click "Next".
 
 ### Server settings
 
