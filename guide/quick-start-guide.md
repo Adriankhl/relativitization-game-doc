@@ -70,8 +70,8 @@ Typically, depending on the size of the map, there is a minimum "Universe t dime
 size of the map, you can pick a small value for "Universe t dimension" (e.g., 1), then changing the spatial dimension
 will automatically pick the smallest possible "Universe t dimension" for you.
 
-After modifying the settings, you can click the "Generate" button, it may take a while to generate the universe.
-When the "Next" button lights up, click "Next".
+After modifying the settings, you can click the "Generate" button, it may take a while to generate the universe. When
+the "Next" button lights up, click "Next".
 
 ### Server settings
 
@@ -82,7 +82,7 @@ The game creates a server even if it is single-player. For a single-player game,
 * Human input wait time limit: the game waits that many seconds a turn for your input, your can select 10000000000
   seconds (at the top of the select box) if you want nearly infinite wait time.
 
-Click "Apply settings" to continue.
+Click "Next" to continue.
 
 ### Register player settings
 
