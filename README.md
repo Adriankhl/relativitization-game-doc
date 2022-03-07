@@ -2,6 +2,10 @@
 
 Everything about the [Relativitization](https://adriankhl.itch.io/relativitization) game.
 
+[Documentation (stable)](https://github.com/Adriankhl/relativitization-game-doc)
+
+[Documentation (development)](https://github.com/Adriankhl/relativitization-game-doc/tree/develop)
+
 ## Is this a game for you?
 
 This is a turn-based strategy / simulation game in 4D, relativistic spacetime.
