@@ -6,8 +6,7 @@ Keep a note of the planned features to be implemented to the game
 
 These features will be implemented.
 
-* Alliance
-    * Need to be careful on synchronizing war state and peace treaty under the time delay
+* Alliance, be careful on synchronizing war state and peace treaty under the time delay
 * Pop buy resources from other players
 * AI build factory on other players
 * Decrease satisfaction if salary is reduced
