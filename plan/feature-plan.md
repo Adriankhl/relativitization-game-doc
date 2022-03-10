@@ -7,7 +7,6 @@ Keep a note of the planned features to be implemented to the game
 These features will be implemented.
 
 * Alliance, be careful on synchronizing war state and peace treaty under the time delay
-* Pop buy resources from other players
 * AI build factory on other players
 * Decrease satisfaction if salary is reduced
 * Destroy buildings when at war
@@ -77,6 +76,7 @@ These features have been implemented.
 * Limit fuel produced in a single unit space cube to prevent unlimited population [x]
 * Adjust the price and quality bound based on overall desire and trade [x]
 * Attack spend production fuel [x]
+* Pop buy resources from other players [x]
 
 ### Default AI
 
