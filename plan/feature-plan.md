@@ -12,9 +12,6 @@ These features will be implemented.
 * Destroy buildings when at war
 * Pop rebel when satisfaction is too low
 * Decrease relation when a factory is removed
-* Physics: time dilation of photon rocket
-* Physics: momentum conservation when sending fuel (transfer opposite momentum by virtual photon?)
-* UI: Display ai-relevant data
 
 ## Brainstorm
 
@@ -25,6 +22,9 @@ These features may or may not be implemented.
 * Transfer/retract player command
 * Transfer/retract carrier command
 * Science era, e.g., Biology era favour nation with more biologist
+* Physics: time dilation of photon rocket
+* Physics: momentum conservation when sending fuel (transfer opposite momentum by virtual photon?)
+* UI: Display ai-relevant data
 
 ## Done
 
