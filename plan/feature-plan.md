@@ -7,7 +7,7 @@ Keep a note of the planned features to be implemented to the game
 These features will be implemented.
 
 * Alliance, be careful on synchronizing war state and peace treaty under the time delay
-* AI build factory on other players
+* Pop growth rate affected by salary factor
 * Decrease satisfaction if salary is reduced
 * Destroy buildings when at war
 * Pop rebel when satisfaction is too low
@@ -83,6 +83,7 @@ These features have been implemented.
 * AI state store last command to subordinate [x]
 * Review resource factory construction after desire change [x]
 * Decrease salary and increase price when pop saving is too much compare to storage [x]
+* AI build factory on other players [x]
 
 ### Universe generation
 
