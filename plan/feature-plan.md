@@ -11,6 +11,7 @@ These features will be implemented.
 * Destroy buildings when at war
 * Pop rebel when satisfaction is too low
 * Decrease relation when a factory is removed
+* Refactor movement from event to physics
 
 ## Brainstorm
 
