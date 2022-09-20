@@ -89,16 +89,14 @@ Click "Next" to continue.
 
 ![register player settings](./images/register-player-settings.png)
 
+If you are not player the default single player game, you may have to choose "Human only" in 
+"Type of available players" then click "Update" to see a set of available player id in the
+"Pick your player id" select box. For a multiplayer game, you should modify your "Password".
+
 To register yourself as a human player in the server:
 
-1. Choose "Human only" in "Type of available players"
-2. Click "Update"
-3. A set of id of available players will appear in the "Pick your player id" select box, you can
-   just leave it as "1"
-4. You don't have to change the password for a single-player game
-5. Click "Register" to register you as the player
-6. If everything goes well, you will see "Registered player id: 1", now you can click "Start" to
-   start the universe
+1. Click "Register" to register you as the player
+2. You will see "Registered player id: 1", then can click "Start" to start the universe
 
 ## Game UI
 
