@@ -6,7 +6,6 @@ Keep a note of the planned features to be implemented to the game
 
 These features will be implemented.
 
-* Alliance, be careful on synchronizing war state and peace treaty under the time delay
 * Decrease satisfaction if salary is reduced
 * Destroy buildings when at war
 * Pop rebel when satisfaction is too low
@@ -78,6 +77,7 @@ These features have been implemented.
 * Attack spend production fuel [x]
 * Pop buy resources from other players [x]
 * Pop growth rate affected by salary factor [x]
+* Alliance, be careful on synchronizing war state and peace treaty under the time delay [x]
 
 ### Default AI
 
