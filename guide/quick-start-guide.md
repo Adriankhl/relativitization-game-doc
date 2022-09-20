@@ -167,7 +167,7 @@ Recall that your can use your "+" and "-" keyboard button or your finger to zoom
 ![top bar universe history](./images/top-bar-universe-history.png)
 
 The game keep your past view of the universe for a few turns. If this is not the first turn, you can
-look back into the history. The "trash bin" button clear the history prior to what you are viewing.
+look back into the history.
 
 #### Command plan buttons
 
