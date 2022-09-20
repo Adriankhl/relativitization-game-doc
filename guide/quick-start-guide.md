@@ -89,7 +89,7 @@ Click "Next" to continue.
 
 ![register player settings](./images/register-player-settings.png)
 
-If you are not player the default single player game, you may have to choose "Human only" in 
+If you are not player the default single player game, you may have to choose "Human only" in
 "Type of available players" then click "Update" to see a set of available player id in the
 "Pick your player id" select box. For a multiplayer game, you should modify your "Password".
 
@@ -447,7 +447,7 @@ don't produce any.
 #### Carrier and pop
 
 To take a closer look on what is happening in your carrier, click "Pop system"
-in [player information buttons](#player-information-buttons).
+in [player information buttons](#player-information-buttons). Then, click "Carrier".
 
 ![player info pop system initial carrier](./images/player-info-pop-system-initial-carrier.png)
 
@@ -460,9 +460,9 @@ player. Typically, it is impractical to move a player with a stellar system.
 
 ![player info pop system initial labourer](./images/player-info-pop-system-initial-labourer-common-2.png)
 
-"Common pop data" is the common property of a pop regardless of the pop type. The labourer pop in
-this carrier has 1000000 population, 1.0 education level, 0 unemployment rate, 0 satisfaction, and
-1E-6 salary.
+Click "Common" to show the common properties of a pop. The labourer pop in this carrier has 1000000
+population, 1.0 education level, 0 unemployment rate, 0 satisfaction, and
+1.0 salary factor.
 
 Satisfaction affects population growth and other functionalities of pop. To increase satisfaction of
 a pop, the desire of the pop has to be fulfilled. Pop will buy their desire resources automatically.
@@ -471,15 +471,28 @@ have sufficient fuel to buy the desired resource.
 
 ### Adjust salary
 
-You can adjust the salary of a pop manually, or use "DefaultSalaryAI" to adjust salaries of all pop.
+You can adjust the salary factor for a specific pop, or adjust the base salary for all pop under
+your
+direct control.
 
-You can type in the "Target salary" text field to change your target. Alternatively, you can use the
-slider and the "-"
-, "+" buttons below. The slider change the coefficient of the number in scientific notation, the "-"
-button reduces the number by 10 times, and the "+" button increases the number by 10 times.
+#### Adjust the pop specific salary factor
 
-Once you are done, click "Change salary". You may select other pop type under "Pop:" to change their
-salary as well.
+You can type in the "Target salary factor" text field or slide the slider to change your target.
+Once you are done, click "Change salary factor". You may select other pop type under "Pop:" to
+change their salary factor as well.
+
+#### Adjust base salary for all pop
+
+Click "General" to go back to the general pop system info.
+
+![player info pop system initial general](./images/player-info-pop-system-initial-general.png)
+
+Type in the "Target base salary" text field to change your target.
+Alternatively, you can use the slider and the "-", "+" buttons below. The slider change the
+coefficient of the number in scientific notation, the "-" button reduces the number by 10 times, and
+the "+" button increases the number by 10 times.
+
+Click "Change base salary" to create the command.
 
 ### Factories
 
