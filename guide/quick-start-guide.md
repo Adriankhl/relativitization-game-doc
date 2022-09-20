@@ -219,11 +219,12 @@ click the button to update the view and clear your stored commands in the plan.
 
 ![top bar server control](./images/top-bar-server-control.png)
 
-Server stop waiting (admin):
+Wait (admin):
 
-* No: always wait for all human input
-* After input: only wait for your input
-* Always: Don't wait, the AI will compute the input for you
+* All human: always wait for all human input
+* You only: only wait for your input
+* Auto AI: automatically compute and send commands by AI
+* No: Don't wait, the AI in the server may compute the input for you
 
 Stop server (admin): completely stop the server from running and stop getting input from human.
 
