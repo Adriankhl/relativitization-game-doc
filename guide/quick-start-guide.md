@@ -348,7 +348,7 @@ One or more carriers form a player, the fundamental playable unit in Relativitiz
 
 In a huge world with speed limit imposed by relativity, credit-based currency may not work. Instead
 of paper money, fuel is used as the currency in Relativitization. Specifically, fuel is measured in
-rest mass (kg), and it can be turned into energy by the famous mass-energy equivalence.
+rest mass (kg), and it can be turned into energy by the famous mass-energy equivalence principle.
 
 (For people who know some physics: we don't use energy as the currency because energy is not Lorentz
 invariant. )
