@@ -1,6 +1,6 @@
 # Relativitization game documentation
 
-Version: 0.1
+Version: 0.2
 
 Everything about the [Relativitization](https://adriankhl.itch.io/relativitization) game.
 
