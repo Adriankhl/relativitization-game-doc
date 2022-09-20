@@ -496,8 +496,9 @@ Click "Change base salary" to create the command.
 
 ### Factories
 
-Resources are manufactured by factories. You can click the "Common" button to hide the common pop
-data, and you will find the "Build factory commands" section.
+Resources are manufactured by factories. Click "Carrier", make sure the selected pop is "Labourer",
+then click "Specific" button to show labourer-specific information. You will find the "Build factory
+commands" section.
 
 ![player info pop system initial build factory](./images/player-info-pop-system-initial-build-factory.png)
 
