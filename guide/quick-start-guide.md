@@ -472,8 +472,6 @@ have sufficient fuel to buy the desired resource.
 
 You can adjust the salary of a pop manually, or use "DefaultSalaryAI" to adjust salaries of all pop.
 
-#### Option 1: manual
-
 You can type in the "Target salary" text field to change your target. Alternatively, you can use the
 slider and the "-"
 , "+" buttons below. The slider change the coefficient of the number in scientific notation, the "-"
@@ -481,19 +479,6 @@ button reduces the number by 10 times, and the "+" button increases the number b
 
 Once you are done, click "Change salary". You may select other pop type under "Pop:" to change their
 salary as well.
-
-#### Option 2: DefaultSalaryAI
-
-Adjusting salary every turn can be tedious if you have many carriers, so the game provide a "
-DefaultSalaryAI" to automate this.
-
-Similar to how you use the [default AI](#let-ai-do-everything), click "AI" in the
-[player information buttons](#player-information-buttons), select "DefaultSalaryAI" instead of "
-DefaultAI", click "
-Compute" and "Use all" to put all the commands into your plan.
-
-Note that "Use all" will remove the commands in your plan and add the ones computed by the AI. Do
-this at the beginning of your turn.
 
 ### Factories
 
