@@ -260,11 +260,11 @@ command is going to send ("Time: 0"), a description of the command ("Do nothing"
 
 You may click "Confirm" to add the command to your plan, or click "Cancel" to cancel the command
 from your plan. Under the default settings, a newly-created command will be "Confirm" automatically,
-unless it is a special command such as "
-DummyCommand", "CannotSendCommand", or "ExecuteWarningCommand".
+unless it is a special command such as
+"DummyCommand", "CannotSendCommand", or "ExecuteWarningCommand".
 
-You can view your previous (or next, if any) confirmed commands by clicking the arrow, and you can "
-Cancel" your confirmed commands.
+You can view your previous (or next, if any) confirmed commands by clicking the arrow, and you can
+"Cancel" your confirmed commands.
 
 ## Load saved games
 
