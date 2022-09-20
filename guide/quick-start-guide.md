@@ -679,10 +679,6 @@ Because you now have at least a spaceship, your player has a different player ic
 The player icon changes due to whether you have a stellar system, whether you have a spaceship, and
 whether you are a top leader.
 
-### Adjust salary for the new carrier.
-
-You may want to [adjust your salary](#adjust-salary) again.
-
 ### Create new player by splitting carriers
 
 Because a cube in the universe can only generate a limited amount of fuel, you may want to expand to
