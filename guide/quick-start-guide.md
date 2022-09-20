@@ -148,9 +148,11 @@ under the top bar.
 
 ![top bar coordinate](./images/top-bar-coordinates.png)
 
-Display the coordinates of your selected cube. You can also select coordinates here. The "z limit"
-and the tick button allow you to limit the number of observable cubes by their z coordinate in the
-world map, but you don't have to worry about this if your z dimension = 3.
+Display the coordinates of your selected cube. You can also select coordinates here. The number
+after "delay" means the time delayed between you and this cube.
+
+The "z limit" and the tick button allow you to limit the number of observable cubes by their z
+coordinate in the world map, but you don't have to worry about this if your z dimension = 3.
 
 #### Zoom buttons
 
