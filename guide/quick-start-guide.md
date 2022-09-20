@@ -71,11 +71,6 @@ The ideal size of the universe depends on the specs of your PC. A reasonable sug
 dimension = 10, y dimension = 10, z dimension = 3), or try (x dimension = 6, y dimension = 6, z
 dimension = 3) for a smaller map.
 
-Typically, depending on the size of the map, there is a minimum "Universe t dimension" required.
-Before you reduce the size of the map, you can pick a small value for "Universe t dimension" (e.g.,
-1), then changing the spatial dimension will automatically pick the smallest possible "Universe t
-dimension" for you.
-
 After modifying the settings, you can click the "Generate" button, it may take a while to generate
 the universe. When the "Next" button lights up, click "Next".
 
