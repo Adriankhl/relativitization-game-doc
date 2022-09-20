@@ -523,14 +523,13 @@ Click "Economy" in [player information buttons](#player-information-buttons).
 ![player info economy initial fuel](./images/player-info-economy-initial-fuel.png)
 
 It shows your current fuel and your default fuel proportion. Slide the slider under "Send fuel to
-this player" to max
-(right), then click "Send fuel to this player". You will see your "production" fuel is now 5.0E8.
+this player" to max (right), then click "Send fuel to this player". You will see your "production"
+fuel is now 5.0E8.
 
 #### Resource factories
 
 Now go back to "Pop System". Click "Build resource factory". You should now see a plant factory
-under "
-Factories:".
+under "Factories:".
 
 ![player info pop system plant factory](./images/player-info-pop-system-plant-factory.png)
 
@@ -691,7 +690,7 @@ Click "Pop System", then click "New player" under the carrier number.
 
 ![player info pop system new player](./images/player-info-pop-system-new-player.png)
 
-Select "1" under "Carrier:", and click "Add". Be careful not to add carrier 0, it will gift your
+Select "Carrier:" "1", and click "Add". Be careful not to add carrier 0, it will gift your
 main stellar system to the new player. Then click "Split carrier". It will create a new player as
 your direct subordinate in the next turn. You can tune the initial fuel and resources of the new
 player as a "Storage fraction" of your storage.
@@ -701,8 +700,8 @@ Go to [next turn](#next-turn) to see your new subordinate.
 ### Subordinate in world map
 
 Click "Players" in [player information buttons](#player-information-buttons)
-. [Zoom in](#zoom-buttons) the world map and click your player icon in "
-Players" to center the world map at the position of your player.
+. [Zoom in](#zoom-buttons) the world map and click your player icon in "Players" to center the world
+map at the position of your player.
 
 ![world map subordinate different color](./images/world-map-subordinate-different-color.png)
 
@@ -870,9 +869,9 @@ happen to you is that you may lose a war or choose to surrender in a war to beco
 subordinate, but you can always find a chance to declare independence to your direct leader or top
 leader to get back your freedom.
 
-Or if you are impatient, you can choose "Always" in [Server stop waiting (admin):](#server-control)
+Or if you are impatient, you can choose "No" in [Wait (admin):](#server-control)
 to get the universe going automatically. Simply [update the universe](#server-information) and enjoy
-watching the societal evolution. Turn [Server stop waiting (admin):](#server-control) to "No" if you
+watching the societal evolution. Turn [Wait (admin):](#server-control) to "Always" if you
 want to control the player again.
 
 ### Contributing!
